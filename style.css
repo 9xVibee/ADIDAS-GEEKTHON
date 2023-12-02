@@ -7,6 +7,10 @@
 
 body {
     height: 200vh;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .nav {
@@ -16,8 +20,11 @@ body {
 
 /* Navbar break points */
 
-/* Break Points */
 @media screen and (min-width:1060px) {
+    .header-main-session {
+        padding: 0 50px !important;
+    }
+
     .header-menu-section ul {
         font-size: 14px !important;
     }
@@ -31,6 +38,72 @@ body {
     }
 }
 
+/* Hiding Middle Menu seciton */
+@media screen and (max-width:960px) {
+    .navbar {
+        height: 6.5rem !important;
+    }
+
+    .header-menu-section {
+        display: none !important;
+    }
+
+    .bar-2 {
+        display: none !important;
+    }
+
+    .input-section-header {
+        display: none !important;
+    }
+
+    .heart {
+        display: none !important;
+    }
+
+    .header-main-session {
+        margin-top: 0.5rem !important;
+    }
+
+    .adidas-logo svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .menu-btn {
+        display: block !important;
+    }
+
+    .hide-heart,
+    .search-icon-hide {
+        display: block !important;
+    }
+}
+
+/*Navbar Break Points End*/
+
+.menu-btn {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    display: none;
+}
+
+.menu-btn i {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.left-hidden-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left-hidden-section .hide-heart,
+.search-icon-hide {
+    font-size: 1.2rem;
+    display: none;
+}
 
 .navbar {
     display: flex;
@@ -95,7 +168,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 20px;
     margin-top: -5px;
 }
 
@@ -297,6 +370,10 @@ body {
     display: block;
 }
 
+.outlet:hover .outlet-section {
+    display: block;
+}
+
 /* Hovering end */
 
 .women-section {
@@ -439,7 +516,6 @@ body {
 }
 
 .sports .men-right-container {
-    padding-top: 3rem;
     padding-left: 5rem;
     gap: 1rem;
 }
@@ -474,7 +550,6 @@ body {
 }
 
 .brands .men-right-container {
-    padding-top: 3rem;
     padding-left: 5rem;
     gap: 3rem;
 }
@@ -510,23 +585,178 @@ body {
 }
 
 .lifestyle-section {
-    height: 58vh;
+    height: 60vh;
 }
 
-.lifestyle .
+.lifestyle .men-right-container {
+    gap: 9rem;
+    padding-left: 5rem;
+}
 
 /* Lifestyle end*/
 
+/* outlet */
+.outlet .menu-bold {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.outlet .men-right-container {
+    gap: 18rem;
+    padding-left: 15rem;
+}
+
+.outlet .container-upper {
+    border: none;
+}
+
+.outlet-section {
+    height: 25vh;
+}
+
+/* outlet end */
+
 /* Home */
+
+/* Home media */
+@media screen and (min-width:1060px) {
+    .home-img-container {
+        width: 70% !important;
+    }
+}
+
+/* Hiding Middle Menu seciton */
+@media screen and (max-width:400px) {
+    .home-img-container {
+        transform: translateY(-30%);
+        height: 100vh !important;
+        width: 100% !important;
+        background-size: cover !important;
+    }
+
+    .home-buttons-container {
+        top: 90% !important;
+    }
+
+    .home {
+        height: 80vh !important;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    height: auto;
+    border: 1px saddlebrown red;
+    overflow-y: scroll;
+    height: 100vh;
+    transform: translateX(-100%);
+}
+
+.sidebar-heading {
+    position: relative;
+    border-bottom: 1px solid #ECEFF1;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-heading .adidas-logo svg {
+    margin-top: 0.5rem;
+}
+
+.sidebar-heading .cross-logo svg {
+    position: absolute;
+    top: 1rem;
+    right: 1.3rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.sidebar-body {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.heading-icon-grp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.heading-icon-grp i {
+    color: black;
+}
+
+.bold-sidebar {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.normal {
+    transform: scale(1.1);
+    color: black !important;
+}
+
+.sidebar-red {
+    color: #E32B2B;
+}
+
+.last-sidebar {
+    border-bottom: 1px solid #ECEFF1;
+    padding-bottom: 1.5rem;
+}
+
+.sidebar-body a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.12rem;
+}
+
+.sidebar-footer {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    background-color: white;
+    padding-left: 2rem;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid #ECEFF1;
+}
+
+.sidebar-footer img {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Sidebar end */
+
+
+/* Home media end */
 .home {
     width: 100%;
     height: 95vh;
     background-color: #0069B5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
 }
 
 .home-img-container {
-    position: relative;
-    width: 70%;
+    width: 100%;
     height: 100%;
     margin: auto;
     background-image: url("./assest/header/shoe.png");
@@ -536,15 +766,14 @@ body {
 }
 
 .home-buttons-container {
-    height: 80%;
     width: 50%;
     position: absolute;
-    top: 10.5%;
-    left: -10%;
-    /* border: 1px solid red; */
+    top: 85%;
+    left: 10%;
     display: flex;
     align-items: flex-end;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .button-container {
@@ -560,8 +789,9 @@ body {
     align-items: center;
     gap: 10px;
     transition: all 0.3s;
-    font-size: 15px;
+    font-size: 1rem;
 }
+
 
 .button-container i {
     transform: scaleX(1.3);

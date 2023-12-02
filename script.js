@@ -12,3 +12,19 @@ window.addEventListener("scroll", function () {
 
   lastScrollY = this.window.scrollY;
 });
+
+// gsap
+const menuBtn = document.querySelector(".menu-btn");
+const sidebar = document.querySelector(".sidebar");
+menuBtn.addEventListener("click", function () {
+  gsap.to(".sidebar", {
+    x: "0%",
+  });
+});
+
+const closeBtn = document.querySelector(".close-logo");
+closeBtn.addEventListener("click", function () {
+  gsap.to(".sidebar", {
+    x: "-100%",
+  });
+});
