@@ -698,8 +698,8 @@ body {
 
 .sidebar-footer {
     width: 100%;
+    position: sticky;
     display: flex;
-    position: fixed;
     bottom: 0;
     left: 0;
     padding: 0.5rem 0;
@@ -932,11 +932,12 @@ body {
 
     .popular-categories {
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0rem !important;
     }
 
     .category-container {
         width: 100%;
+        margin-bottom: -1rem;
     }
 }
 
