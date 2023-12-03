@@ -57,12 +57,35 @@
 
 
 .product-container {
-    padding: relative;
+    padding-bottom: 1rem;
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
     width: 88%;
     margin: auto;
+
+    &::-webkit-scrollbar {
+        width: 20px;
+        height: 0.3rem;
+        background-color: #ECEFF1;
+        cursor: pointer;
+        display: block;
+    }
+
+    &::-webkit-scrollbar:hover {
+        height: 0.5rem;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 10px;
+    }
 }
 
 
