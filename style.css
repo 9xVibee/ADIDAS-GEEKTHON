@@ -1,1010 +1,111 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:ital,wght@1,300&display=swap');
 
-body {
-    height: 200vh;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-.nav {
-    transform: translateY(-200px);
-    transition: all 0.1s;
-}
-
-/* Navbar break points */
-
-@media screen and (min-width:1060px) {
-    .header-main-session {
-        padding: 0 50px !important;
-    }
-
-    .header-menu-section ul {
-        font-size: 14px !important;
-    }
-
-    .header-menu-section ul li a {
-        padding: 12px 10px !important;
-    }
-
-    .header-menu-section {
-        justify-content: flex-end !important;
-    }
-}
-
-/* Hiding Middle Menu seciton */
-@media screen and (max-width:960px) {
-    .navbar {
-        height: 6.5rem !important;
-    }
-
-    .header-menu-section {
-        display: none !important;
-    }
-
-    .bar-2 {
-        display: none !important;
-    }
-
-    .input-section-header {
-        display: none !important;
-    }
-
-    .heart {
-        display: none !important;
-    }
-
-    .header-main-session {
-        margin-top: 0.5rem !important;
-    }
-
-    .adidas-logo svg {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .menu-btn {
-        display: block !important;
-    }
-
-    .hide-heart,
-    .search-icon-hide {
-        display: block !important;
-    }
-}
-
-/*Navbar Break Points End*/
-
-.menu-btn {
-    outline: none;
-    border: none;
-    background-color: #fff;
-    display: none;
-}
-
-.menu-btn i {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.left-hidden-section {
+.footer-adi-container{
+    background-color: #f7f7f1;
     display: flex;
-    align-items: center;
-    gap: 1rem;
 }
 
-.left-hidden-section .hide-heart,
-.search-icon-hide {
-    font-size: 1.2rem;
-    display: none;
+.footer-item1{
+    margin-right: 40px;
+    align-content: center;
 }
-
-.navbar {
+.footer-item2{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.join-list-container{
+    background-color: #e4e40a;
+    height: 130px;
+    align-content: center;
+}
+.join-list{
+    margin-left: 450px;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    transition: 0.4s;
-    border-bottom: 1px solid #ECEFF1;
-    background-color: white;
-    height: 7.6rem;
-    z-index: 99;
+    font-display: 20px;
+    margin-right: 30px;
+    font-weight: 900px;
 }
-
-.header-black-section {
-    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
-    width: 100%;
+button{
+    margin-top: 30px;
+    width: 250px;
     background-color: black;
-    padding: 12px 0;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    text-transform: uppercase;
+    color:white;
+    pointer-events: visibleFill;
+    box-shadow: 5px 5px;
+    
+}
+.button:hover{
+    overflow: hidden;
 }
 
-.header-black-section span {
-    font-size: 9px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    transform: scaleY(1.2);
+h2{
+    margin-right: 40px;
+    margin-top: 40px;
+    font-weight: 900px;
+}
+{
+    margin left: 30px;
 }
 
-.header-black-section i {
+h1{
+    font-size: 30px;
+}
+h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+li{
+    list-style: none;
+    margin-left: 200px;
     font-size: 15px;
-}
-
-.bar-2 {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 50px;
-}
-
-.bar-2 ul {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    font-size: 12px;
-    font-weight: lighter;
-}
-
-.bar-2 ul li {
-    font-weight: 0;
-}
-
-.header-main-session {
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px;
-    margin-top: -5px;
-}
-
-.adidas-logo {
-    width: 60px;
-    height: 60px;
-}
-
-.header-menu-section {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.header-menu-section ul {
-    display: flex;
-    list-style-type: none;
-    letter-spacing: 1.5px;
-    font-size: 12px;
-}
-
-.header-menu-section ul li a {
-    text-transform: uppercase;
-    position: relative;
-    border: 3px solid transparent;
-    padding: 12px 5px;
-    z-index: 99;
-    text-decoration: none;
-    color: black;
-}
-
-.header-menu-section ul li a:hover {
-    z-index: 20;
-    border-bottom: 3px solid black;
-    cursor: pointer;
-    border-radius: 0 0 4px 4px;
-}
-
-.header-menu-section .red:hover {
-    border-bottom: 3px solid #E32B2B;
+    margin-bottom: 10px;
     cursor: pointer;
 }
-
-.menu-bold {
-    font-weight: 550;
-    border: none;
+li:hover{
+    text-decoration: underline;
 }
-
-.menu-bold .red {
-    color: #E32B2B;
-}
-
-.search-section-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.input-section-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ECEFF1;
-    padding: 8px 10px;
-    width: 12rem;
-}
-
-.input-section-header i {
-    font-size: 18px;
-}
-
-.input-section-header input {
-    background-color: #ECEFF1;
-    border: none;
-    outline: none;
-}
-
-.input-section-header input::placeholder {
-    color: black;
-    letter-spacing: 1px;
-}
-
-.logo-section-header {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.logo-section-header i {
-    font-size: 18px;
-}
-
-.cart {
-    height: 20px;
-}
-
-.logo-section-header {
+.adi-list-container{
     display: flex;
 }
-
-.user-header {
-    position: relative;
-    display: flex;
-}
-
-.count {
-    padding: 4px 8px;
-    background-color: #FFD619;
-    border-radius: 100%;
-    position: absolute;
-    top: -16px;
-    right: -12px;
-    font-size: 10px;
-    font-weight: bold;
-    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
-}
-
-@keyframes bounce {
-
-    0%,
-    9%,
-    18% {
-        transform: translateY(0);
-    }
-
-    2% {
-        transform: translateY(-10px);
-    }
-
-    3% {
-        transform: translateY(-3px);
-    }
-
-    5% {
-        transform: translateY(-8px);
-    }
-
-    7% {
-        transform: translateY(-2px);
-    }
-
-    11% {
-        transform: translateY(-10px);
-    }
-
-    12% {
-        transform: translateY(-3px);
-    }
-
-    14% {
-        transform: translateY(-8px);
-    }
-
-    16% {
-        transform: translateY(-2px);
-    }
-}
-
-/* Hover section */
-/* men */
-.men-section {
-    width: 100%;
-    height: 78vh;
-    background-color: #fff;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    border: 1px solid #ECEFF1;
-    display: none;
-}
-
-.outlet {
-    color: #E32B2B !important;
-    font-weight: 600 !important;
-}
-
-/* Hovering handling */
-.navbar .men:hover .men-section {
-    display: block;
-}
-
-.women:hover .women-section {
-    display: block;
-}
-
-.kids:hover .kids-section {
-    display: block;
-}
-
-.sports:hover .sports-section {
-    display: block;
-}
-
-.brands:hover .brands-section {
-    display: block;
-}
-
-.lifestyle:hover .lifestyle-section {
-    display: block;
-}
-
-.outlet:hover .outlet-section {
-    display: block;
-}
-
-/* Hovering end */
-
-.women-section {
-    height: 75vh;
-}
-
-
-.container-upper {
-    height: 92%;
-    border-bottom: 1px solid #ECEFF1;
-    display: flex;
-}
-
-.men-left-container {
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    border-right: 1px solid #ECEFF1;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    gap: 10px;
-}
-
-.first {
-    font-size: 0.9rem !important;
-    letter-spacing: 0.5px;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.col-2 {
-    margin: 20px 0;
-}
-
-.column p {
-    font-weight: lighter;
-    color: #424542;
-    font-size: 0.9rem;
-    transform: scaleY(1.1);
-    letter-spacing: 0.5px;
-}
-
-.men-right-container {
-    display: flex;
-    padding-left: 1.5rem;
-    gap: 8em;
-    padding-top: 2rem;
-}
-
-.right-small-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.down-container {
-    display: flex;
-}
-
-.down-left-container {
-    width: 30%;
-    padding-left: 5rem;
-    display: flex;
-    padding-top: 1rem;
-}
-
-.down-left-container p {
-    letter-spacing: 0;
-}
-
-.down-right-container p {
-    letter-spacing: 0;
-}
-
-.down-right-container {
-    width: 100%;
-    padding-left: 1rem;
-    display: flex;
-    gap: 8rem;
-    padding-top: 1rem;
-}
-
-.women-section .down-right-container {
-    gap: 9rem;
-}
-
-.ex-pad {
-    margin-left: 2rem;
-}
-
-.less-pad {
-    margin-left: -1.5rem;
-}
-
-/* Kids */
-.kids .men-right-container {
-    padding-left: 5rem;
-    gap: 13rem;
-}
-
-.kids-section {
-    height: 45vh;
-}
-
-.kids-section .container-upper {
-    height: 85%;
-}
-
-.kids .down-right-container {
-    width: 100%;
-    padding-left: 5rem;
-    gap: 18.2rem;
-}
-
-.last-kid {
-    margin-left: -1rem;
-}
-
-/* Kids end */
-
-/* Sports section */
-.sports-img-container {
-    width: 13rem;
-    height: 6rem;
-}
-
-.sports-img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.sports-bold {
-    font-weight: bold !important;
-    color: black !important;
-}
-
-.sports .men-right-container {
-    padding-left: 5rem;
-    gap: 1rem;
-}
-
-.sports .right-small-container {
-    width: 13rem;
-}
-
-.sports .down-right-container {
-    padding-left: 5rem;
-    gap: 1rem;
-}
-
-.sports .down {
-    width: 13rem;
-    font-weight: bold;
-}
-
-.sports-section {
-    height: 70vh;
-}
-
-.sports .container-upper {
-    height: 63.5vh;
-}
-
-/* Sports section end*/
-
-/* brands section */
-.brands-section {
-    height: 75vh;
+.adi-list-sports{
+    margin-left: -140px;
+    cursor: pointer
 }
-
-.brands .men-right-container {
-    padding-left: 5rem;
-    gap: 3rem;
-}
-
-.brands .right-small-container {
-    /* border: 1px solid red; */
-    width: 14rem;
-}
-
-.brands-heading-img-container {
-    width: 13rem;
-}
-
-.brands-heading-img-container img {
-    width: 100%;
-}
-
-.brands .down-right-container {
-    padding-left: 5rem;
-    gap: 3rem;
-}
-
-.brands .down-right-container p {
-    width: 14rem;
-    font-weight: bold !important;
-}
-
-/* brands section end */
-
-/* Lifestyle */
-.lifestyle .container-upper {
-    border: none;
-}
-
-.lifestyle-section {
-    height: 60vh;
-}
-
-.lifestyle .men-right-container {
-    gap: 9rem;
-    padding-left: 5rem;
-}
-
-/* Lifestyle end*/
-
-/* outlet */
-.outlet .menu-bold {
-    font-weight: bold !important;
-    color: black !important;
-}
-
-.outlet .men-right-container {
-    gap: 18rem;
-    padding-left: 15rem;
-}
-
-.outlet .container-upper {
-    border: none;
-}
-
-.outlet-section {
-    height: 25vh;
-}
-
-/* outlet end */
-
-
-/* Sidebar */
-.sidebar {
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    height: auto;
-    border: 1px saddlebrown red;
-    overflow-y: scroll;
-    height: 100vh;
-    transform: translateX(-100%);
-}
-
-.sidebar-heading {
-    position: relative;
-    border-bottom: 1px solid #ECEFF1;
-    display: flex;
-    justify-content: center;
-}
-
-.sidebar-heading .adidas-logo svg {
-    margin-top: 0.5rem;
-}
-
-.sidebar-heading .cross-logo svg {
-    position: absolute;
-    top: 1rem;
-    right: 1.3rem;
-    width: 2rem;
-    height: 2rem;
-}
-
-.sidebar-body {
-    width: 100%;
-    padding: 1.5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.heading-icon-grp {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.heading-icon-grp i {
-    color: black;
-}
-
-.bold-sidebar {
-    font-weight: bold;
-    transform: scale(1.1);
-}
-
-.normal {
-    transform: scale(1.1);
-    color: black !important;
-}
-
-.sidebar-red {
-    color: #E32B2B;
-}
-
-.last-sidebar {
-    border-bottom: 1px solid #ECEFF1;
-    padding-bottom: 1.5rem;
-}
-
-.sidebar-body a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.12rem;
-}
-
-.sidebar-footer {
-    width: 100%;
-    position: sticky;
-    display: flex;
-    bottom: 0;
-    left: 0;
-    padding: 0.5rem 0;
-    background-color: white;
-    padding-left: 2rem;
-    align-items: center;
-    gap: 1rem;
-    border-top: 1px solid #ECEFF1;
-}
-
-.sidebar-footer img {
-    width: 2rem;
-    height: 2rem;
-}
-
-/* Sidebar end */
-
-/* Home media */
-@media screen and (min-width:1060px) {
-    .home-img-container {
-        width: 70% !important;
-    }
-}
-
-@media screen and (max-width:1060px) {
-    .home-buttons-container {
-        bottom: 2% !important;
-        left: 10% !important;
-    }
-}
-
-/* Hiding Middle Menu seciton */
-@media screen and (max-width:400px) {
-    .home-img-container {
-        transform: translateY(-30%);
-        height: 100vh !important;
-        width: 100% !important;
-        background-size: cover !important;
-    }
-
-    .home-buttons-container {
-        bottom: -5% !important;
-    }
-
-    .button-container {
-        font-size: 0.8rem !important;
-    }
-
-    .home {
-        height: 80vh !important;
-    }
-}
-
-/* Home media end */
-/* Home */
-.home {
-    width: 100%;
-    height: 90vh;
-    background-color: #0069B5;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-}
-
-.home-img-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background-image: url("./assest/header/shoe.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.home-buttons-container {
-    width: 80%;
-    position: absolute;
-    bottom: 8%;
-    left: -10%;
-    display: flex;
-    align-items: flex-end;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.button-container {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    letter-spacing: 1.5px;
-    padding: 8px 20px;
-    background-color: white;
-    font-weight: 600;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    transition: all 0.3s;
-    font-size: 1rem;
+.adi-list-collections{
+    margin-left: -140px;    
 }
-
-
-.button-container i {
-    transform: scaleX(1.3);
-}
-
-.button-container:hover {
-    color: #767677;
-}
-
-
-/* Winter Essential */
-.winter-essential {
-    width: 100%;
-    height: 100vh;
-    background-image: url("./assest/Winter_Essential/bigsize.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.checkout {
-    position: absolute;
-    bottom: 18%;
-    left: 10%;
-    color: white;
-    letter-spacing: 0.5px;
-    font-size: 1.2rem;
-}
-
-.winter-essential .home-buttons-container {
-    left: 10%;
-}
-
-/* Media */
-@media screen and (max-width:1020px) {
-    .winter-essential {
-        background-image: url("./assest/Winter_Essential/smallsize.avif") !important;
-        background-position: center;
-    }
+.adi-list-support{
+    margin-left: -140px;
 }
-
-@media screen and (max-width:700px) {
-    .checkout {
-        bottom: 18% !important;
-    }
-}
-
-@media screen and (max-width:450px) {
-    .checkout {
-        bottom: 25% !important;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .winter-essential {
-        background-image: url("./assest/Winter_Essential/extrasmall.avif") !important;
-        background-position: center;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .winter-essential .home-buttons-container {
-        bottom: 3% !important;
-    }
-}
-
-/* Media end*/
-
-/* Winter Essential end */
-
-/* Popular Now */
-.popular-now {
-    width: 100%;
+.adi-list-company-info{
+    margin-left: -140px;
 }
-
-.popular-now-container {
-    width: 85%;
-    margin: auto;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
+.adi-list-follow-us{
+    margin-left: -140px;
 }
+.
 
-.popular-categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
+h1,h2,p,button,h5,li,.footer-conclusion,.footer-item.{
+    font-family: 'Open sans', sans-serif;
+    
 }
+.footer-item-container{
+    background-color: rgb(24, 20, 29);
+    height: 120px;
 
-.category-container {
-    width: 23rem;
-    border-bottom: 8px solid transparent;
 }
-
-.category-container:hover {
-    border-bottom: 8px solid black;
+.footer-item{
+    color: azure;
+   align-items: center;
+    margin-left: 500px;
     cursor: pointer;
+    font-size: smaller;
+    margin-top: 20px;
 }
-
-.category-container:hover p {
-    border-bottom: 1px solid transparent;
-}
-
-.category-container a {
-    text-decoration: none;
-    color: black;
-}
-
-.category-container p {
-    font-size: 2.5rem;
-    transform: scaleY(0.9);
-    font-weight: 900;
-    width: 100%;
-    height: 100%;
-    border-bottom: 1px solid black;
-}
-
-@media screen and (max-width:960px) {
-    .popular-now-container {
-        gap: 1rem;
-    }
-
-    .pop-head {
-        font-size: 1.3rem;
-    }
-
-    .popular-categories {
-        flex-direction: column;
-        gap: 0rem !important;
-    }
-
-    .category-container {
-        width: 100%;
-        margin-bottom: -1rem;
-    }
-}
-
-@media screen and (max-width:760px) {
-    .category-container p {
-        font-size: 2.2rem;
-    }
-}
-
-/* Waysf */
-.waysf {
-    width: 100%;
-}
-
-.waysf-container {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.waysf-heading h1 {
-    font-size: 2.5rem;
-    transform: scaleY(0.9);
-}
-
-.waysf-card-container {
-    display: flex;
-    gap: 1rem;
-}
-
-.waysf-container a {
-    text-decoration: none;
-    color: black;
-}
-
-.wayasf-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.wayasf-card p {
-    font-weight: bold;
-    font-size: 1.1rem;
-    transform: scaleY(1.1);
-}
-
-.waysfcard-img {
-    width: 100%;
-}
-
-.waysfcard-img img {
-    width: 100%;
-}
-
-@media screen and (max-width:1040px) {
-    .waysfcard-img {
-        width: 18rem;
-    }
-
-    .waysf-card-container {
-        overflow: scroll;
-
-        &::-webkit-scrollbar {
-            display: none;
-        }
-    }
+.footer-conclusion{
+    color: azure;
+    margin-left: 520px;
+    font-size: smaller;
+    margin-top: 70px;
 }
