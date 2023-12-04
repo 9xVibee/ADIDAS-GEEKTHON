@@ -1,135 +1,240 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:ital,wght@1,300&display=swap');
-
-.footer-adi-container {
-    background-color: #f7f7f1;
-    display: flex;
-}
-
-.footer-item1 {
-    margin-right: 40px;
-    align-content: center;
-}
-
-.footer-item2 {
-    margin-left: 20px;
-    margin-right: 50px;
-}
-
-.join-list-container {
-    background-color: #e4e40a;
-    height: 130px;
-    align-content: center;
-}
-
-.join-list {
-    margin-left: 450px;
-    display: flex;
-    font-display: 20px;
-    margin-right: 30px;
-    font-weight: 900px;
-}
-
-button {
-    margin-top: 30px;
-    width: 250px;
-    background-color: black;
-    color: white;
-    pointer-events: visibleFill;
-    box-shadow: 5px 5px;
-
-}
-
-.button:hover {
-    overflow: hidden;
-}
-
-h2 {
-    margin-right: 40px;
-    margin-top: 40px;
-    font-weight: 900px;
-}
-
-    /* {
-    margin left: 30px;
-} */
-
-h1 {
-    font-size: 30px;
-}
-
-h5 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 200px;
-}
-
-li {
-    list-style: none;
-    margin-left: 200px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-li:hover {
-    text-decoration: underline;
-}
-
-.adi-list-container {
-    display: flex;
-}
-
-.adi-list-sports {
-    margin-left: -140px;
-    cursor: pointer
-}
-
-.adi-list-collections {
-    margin-left: -140px;
-}
-
-.adi-list-support {
-    margin-left: -140px;
-}
-
-.adi-list-company-info {
-    margin-left: -140px;
-}
-
-.adi-list-follow-us {
-    margin-left: -140px;
-}
-
-h1,
-h2,
-p,
-button,
-h5,
-li,
-.footer-conclusion,
-.footer-item {
-    font-family: 'Open sans', sans-serif;
-
-}
-
-.footer-item-container {
-    background-color: rgb(24, 20, 29);
-    height: 120px;
-
-}
-
-.footer-item {
-    color: azure;
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'AdihausDIN';
+  }
+  .footer{
+    background-color: #f5f5e5;
     align-items: center;
-    margin-left: 500px;
-    cursor: pointer;
-    font-size: smaller;
-    margin-top: 20px;
-}
+    width:100%;
+    display: flex;
+  }
+  .container {
+     display: flex; 
+    column-gap: 3.125rem;
+   width:80%;
+   margin:auto;
+   padding-bottom:2.5rem;
+   padding-top: 2.5rem;
+   align-content: center;
+  }
 
-.footer-conclusion {
-    color: azure;
-    margin-left: 520px;
-    font-size: smaller;
-    margin-top: 70px;
+  .left-half, .right-half {
+
+    box-sizing: border-box; 
+  }
+  .left-half h1{
+    font-weight:700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin:0px 0px 0.625rem;
+    text-decoration:none solid rgb(0, 0, 0);
+    
+  }
+  .right-half h2{
+    font-weight:700;
+    font-size: 1.75rem;
+    line-height:2.25rem;
+    margin:0px 0px 0.625rem;
+
+  }
+  .left-half p
+  {
+    font-size:1rem;
+    font-weight:400;
+    line-height: 1.375rem;
+  }
+  .right-half p{
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.375rem;
+  }
+  .blackNavbefore{
+    background-color: black;
+    color:white;
+    padding:0.938rem;
+    display:flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight:700;
+    border-top: transparent;
+  }
+  .yellow{
+    /* width:90%; */
+    background-color: #ede734;
+    padding:2.5rem;
+    text-align: center;
+    display: flex;
+    
+  }
+  .yellow .footerCaption{
+    margin-left: 20%;
+    margin-right: 5%;
+    font-weight: 700;
+    font-size: 1.875rem;
+    font-family:Arial, Helvetica, sans-serif;/*Adieue*/
+    flex-wrap: nowrap;
+  }
+  .buttonwrap{
+    background-color: none;
+    border:0.04rem solid black;
+    
+   
+  } 
+    .signupButton{
+   align-items: center;
+   border: none;
+   border-radius: 0;
+   cursor: pointer;
+    display: inline-flex;
+    padding:0.938rem 1.875rem;
+    position:relative;
+    white-space: nowrap;
+    width:auto;
+    justify-content: flex-start;
+    text-align: left;
+    transform:translate(-0.188rem,-0.188rem);
+}
+.free{
+  background-color: black;
+  border-color: black;
+  color:white;
+  font-size:0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.063rem;
+  line-height: 1.25rem;
+  text-decoration: none; 
+}
+ 
+
+  .free:hover{
+     /* transform:translate(0px,0px); */
+     color:#4f4f4f;
+     /* transition:0.5s; */
+
+  }
+  .buttonContent{
+    flex:1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  } 
+  .buttonContent .material-symbols-sharp{
+    font-size:15rem;
+  }
+  .afterblacknav{
+    background-color: black;
+    font-size: 0.938rem;
+    display:flex;
+    color:white;
+    justify-content: space-around;
+  }
+  .afterblacknav ul{
+    list-style: none;
+  }
+  .afterblacknav li{
+    padding:0.625rem 0.938rem;
+    
+  }
+  .afterblacknav a{
+    text-decoration: none;
+    color: white;
+  }
+  .afterblacknav a:hover{
+    text-decoration: underline;
+  }
+  .footerlist{
+    /* width:65%; */
+   margin:auto;
+   padding-bottom: 1.25rem;
+   display: flex;
+   justify-content: center;
+  }
+  .footerlist h5{
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.footerlist li{
+    list-style: none;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+}
+.adi-list-product{
+    padding:1.25rem;
+}
+ .adi-list-sports{
+    padding:1.25rem;
+}
+.adi-list-collections{
+    padding:1.25rem;    
+}
+.adi-list-support{
+    padding:1.25rem;
+}
+.adi-list-company-info{
+    padding:1.25rem;
+}
+.adi-list-follow-us{
+    padding:1.25rem;
+}
+.grayfooter{
+    background-color:#282c31 ;
+    /* width:100%; */
+    padding:1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.topcontent{
+    color:#D3D7DA;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+.bottomcontent{
+    color:#D3D7DA;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+@media screen and (min-width: 290px) and (max-width: 959px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .left-half,
+    .footer .right-half {
+        width: 100%;
+    }
+     .yellow{
+        flex-direction: column;
+    } 
+    .footerCaption{
+      margin:auto;
+      text-align: center;
+    }
+     .buttonwrap{
+      border:0.04rem;
+      position:absolute;
+    } 
+    
+    .footerlist{
+      display:none;
+    }
+}
+@media screen and (min-width:960px){
+  .blackNavbefore{
+    display:none;
+  }
+  .afterblacknav{
+    display:none;
+  }
+  .yellow .footercaption{
+    display:inline-block;
+    
+  }
+
 }
