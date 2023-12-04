@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    position: relative;
+    position: relative !important;
 }
 
 .main {
