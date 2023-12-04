@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
     background-color: white;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .product {
@@ -263,8 +263,7 @@
 
 /* -----WHAT'S HOT---- */
 .hot {
-    /* margin-top: -80px; */
-    margin-left: 130px;
+    margin-left: 7rem;
 }
 
 .carosul-2 {
@@ -389,21 +388,11 @@ a {
         margin-left: 8%;
     }
 
-    /* ------carousel------  */
-    .carosul-1 {
-        /* margin-top: -270px; */
-    }
-
     /* -----WHAT'S HOT---- */
     .hot {
-        margin-top: -150px;
-        margin-left: 80px;
+        margin-left: 4rem;
     }
 
-    /* ------carousel-2------  */
-    .carosul-2 {
-        margin-top: -190px;
-    }
 }
 
 /* -----media query for ipad------- */

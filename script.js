@@ -4,10 +4,11 @@ window.addEventListener("scroll", function () {
   const navbar = this.document.querySelector(".navbar");
 
   if (this.window.scrollY > 100) {
-    if (lastScrollY > this.window.scrollY) navbar.classList.remove("nav");
-    else navbar.classList.add("nav");
+    if (lastScrollY > this.window.scrollY)
+      navbar.classList.remove("nav-display");
+    else navbar.classList.add("nav-display");
   } else {
-    navbar.classList.remove("nav");
+    navbar.classList.remove("nav-display");
   }
 
   lastScrollY = this.window.scrollY;
