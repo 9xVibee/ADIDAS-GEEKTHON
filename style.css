@@ -18,6 +18,12 @@ body {
     transition: all 0.1s;
 }
 
+.left-hidden-section .hide-heart,
+.search-icon-hide {
+    font-size: 1.2rem;
+    display: none !important;
+}
+
 /* Navbar break points */
 
 @media screen and (min-width:1060px) {
@@ -98,12 +104,12 @@ body {
     align-items: center;
     gap: 1rem;
 }
-
+/* 
 .left-hidden-section .hide-heart,
 .search-icon-hide {
     font-size: 1.2rem;
-    display: none;
-}
+    display: none !important;
+} */
 
 .navbar {
     display: flex;
