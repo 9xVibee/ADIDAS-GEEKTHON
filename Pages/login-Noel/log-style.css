@@ -1,0 +1,360 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    height: 7.7rem !important;
+}
+
+.login {
+    margin-top: 10rem !important;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    width: 85%;
+    margin: auto;
+}
+
+.join-club {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    transform: scaleX(1.1);
+    line-height: 1;
+}
+
+.discription {
+    margin-top: 0.8rem;
+    margin-left: -2rem;
+}
+
+.rewards {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin-left: -1.6rem;
+}
+
+.tick-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem
+}
+
+.tick {
+    margin-top: 0.6rem;
+    justify-content: center;
+    text-align: start;
+}
+
+.reward-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: 13px;
+    color: #2d2d2d !important;
+}
+
+
+.right-part {
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+.free-shipping {
+    margin-top: 10px;
+    font-size: 250x;
+    opacity: 0.8;
+}
+
+.login-signup {
+    margin-top: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 2px;
+    height: 70px;
+    width: 240px;
+    padding: 10px;
+
+}
+
+.apple-icon {
+    border: 1px solid black;
+    height: 55px;
+    width: 60px;
+    padding: px;
+    margin-left: -20px;
+}
+
+.apple {
+    height: 35px;
+    margin-top: 7px;
+}
+
+.fb-icon {
+    border: 1px solid black;
+    height: 55px;
+    width: 60px;
+    padding: px;
+}
+
+.fb {
+    height: 35px;
+    margin-top: 7px;
+}
+
+.g-icon {
+    border: 1px solid black;
+    height: 55px;
+    width: 60px;
+    padding: px;
+}
+
+.g {
+    height: 35px;
+    margin-top: 7px;
+}
+
+#email {
+    height: 45px;
+    width: 500px;
+    margin-top: 7px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.terms-condition {
+    display: flex;
+    margin-top: 20px;
+}
+
+.checkbox {
+    width: 50px;
+    height: 300px;
+}
+
+.check1 {
+    height: 30px;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.checkbox1 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.check2 {
+    height: 30px;
+    width: 100%;
+    margin-top: 101px;
+}
+
+.checkbox2 {
+    height: 100%;
+    width: 100%;
+}
+
+.check3 {
+    height: 30px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.checkbox3 {
+    height: 100%;
+    width: 100%;
+}
+
+.checkbox1:checked {
+    accent-color: black;
+    font-size: small;
+}
+
+.checkbox2:checked {
+    accent-color: black;
+}
+
+.checkbox3:checked {
+    accent-color: black;
+}
+
+
+
+
+.condition {
+    font-size: 18px;
+    margin-left: 10px;
+    height: 300px;
+}
+
+.con2,
+.con3 {
+    margin-top: 38px;
+
+}
+
+a {
+    color: black;
+    margin-left: 7px;
+    opacity: 0.8;
+
+}
+
+.buttonwrap {
+    background-color: none;
+    border: 1px solid black;
+    width: 167px;
+}
+
+.signupButton {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 15px 30px;
+    position: relative;
+    white-space: nowrap;
+    width: auto;
+    justify-content: flex-start;
+    text-align: left;
+    transform: translate(-3px, -3px);
+
+}
+
+.free {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-decoration: none;
+
+}
+
+.free:hover {
+    color: rgb(91, 90, 90);
+}
+
+.buttonContent {
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttonContent .material-symbols-sharp {
+    font-size: 15rem;
+}
+
+@media (max-width: 768px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-part {
+        width: 95%;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .apple-icon {
+        width: 10rem;
+        margin-top: -3px;
+    }
+
+    .fb-icon {
+        width: 10rem;
+        margin-top: -3px;
+    }
+
+    .g-icon {
+        width: 10rem;
+        margin-top: -3px;
+    }
+
+    #email {
+        width: 95%;
+
+    }
+
+    .check2 {
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .left-part {
+        display: none;
+    }
+
+    icons {
+        border: 1px solid black;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .apple-icon {
+        width: 90px;
+        margin-top: -3px;
+    }
+
+    .fb-icon {
+        width: 90px;
+        margin-top: -3px;
+    }
+
+    .g-icon {
+        width: 90px;
+        margin-top: -3px;
+    }
+
+    #email {
+        width: 97%;
+    }
+
+    .checkbox {
+        width: 110px;
+        height: 370px;
+    }
+
+    .check2 {
+        margin-top: 145px;
+    }
+
+    .check3 {
+        margin-top: 90px;
+    }
+
+    .buttonwrap {
+        margin-top: 6rem;
+    }
+}
