@@ -478,7 +478,7 @@ body {
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:600px) {
     .carosul-2 {
         margin-left: 0 !important;
     }
