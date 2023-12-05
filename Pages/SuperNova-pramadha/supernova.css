@@ -1,0 +1,761 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+   
+}
+
+.navbar {
+    position: relative !important;
+}
+
+.main {
+    padding-top: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+#a1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#a1 .material-symbols-sharp {
+    margin-right: 0%;
+}
+
+#a1 .material-symbols-sharp:hover {
+    background-color: black;
+}
+
+#a1 .home-mens,
+#a1 .men,
+#a1 .running {
+    margin-right: 2px;
+    text-decoration: underline bold;
+    font-size: 16px;
+
+}
+
+#a1 a {
+    transition: all 0.3s;
+}
+
+#a1 .home-mens a:hover,
+#a1 .men a:hover,
+#a1 .running a:hover {
+    color: white;
+    background-color: black;
+}
+
+#a1 .shoes {
+    font-size: 16px;
+}
+
+#a1 .back {
+    text-decoration: underline lightgray;
+    font-size: 14px;
+    margin-left: 0%;
+}
+
+#a1 .back a:hover {
+    color: white;
+    background-color: black
+}
+
+#a1 a {
+    color: black;
+    margin-left: 15px;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+
+.headerN .sideheadN h1 {
+    font-style: italic;
+    font-size: 30px;
+    transform: scaleY(1.1);
+}
+
+.paraN p {
+    height: 66px;
+    width: 80%;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+
+}
+
+.filter {
+    margin-left: 80%;
+    box-sizing: border-box;
+    text-shadow: #767677;
+    font-weight: bold;
+
+}
+
+.filter p {
+    border: 1px solid black;
+    padding: 8px 10px;
+    width: 60%;
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter .material-symbols-sharp {
+    margin-left: 5px;
+}
+
+.filter:hover p {
+    color: #98989a;
+}
+
+.card-container {
+    margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+hr {
+    /* color: #a6a6b0; */
+    background-color: #e9eaeb;
+    height: 0.01em;
+    border: none;
+    margin-bottom: 0.5rem;
+    width: 94%;
+}
+
+.card {
+    width: 18rem;
+    /* width: 100%; */
+    box-sizing: border-box;
+    position: relative;
+    height: 22rem;
+    border: 1px solid transparent;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    text-align: left;
+    color: #767677;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: 7px;
+    margin-top: 0%;
+}
+
+.card .heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.paragraph {
+    position: absolute;
+    /* top: 64%; */
+    bottom: 19%;
+    left: 1.5%;
+    width: 6.2rem;
+    background: #fff;
+    color: black !important;
+    transition: all 0.3s;
+    padding: 4px 10px;
+}
+
+
+.card:hover .paragraph {
+    bottom: 20%;
+}
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5b262fe50704fbebcb0d99adea69b53_9366/Ultra_4D_Shoes_Black_IG2262_02_standard_hover.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f571eb03cfd4e5792e7ae84003232e1_9366/Ultra_4DFWD_Shoes_Black_GX6632_02_standard_hover.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac13610129764afb99bbaf5d009b5db3_9366/Supernova_2.0_Shoes_Grey_HQ9933_02_standard_hover.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/db5a63951c5a42f2a3eaae88018a08e1_9366/Galaxy_6_Shoes_Black_GW3848_02_standard_hover.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4993e0557d224195ace1afb000bc171f_9366/Ultraboost_Light_Red_HQ1402_02_standard_hover.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/579291ff6f4c4972ad9dab4a00a0c7fc_9366/Ultimashow_Shoes_Black_FX3632_02_standard_hover.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/93a47e10a8434b8daef4af0e0090d866_9366/WIND_RAISER_SHOES_Blue_GB2514_02_standard_hover.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f3b1b7c155444338733adcd00844fe2_9366/FLUIDFLOW_2.0_RUNNING_SHOE_Blue_EX2102_02_standard_hover.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a3c17f0964044059607af420143011f_9366/Ultraboost_1.0_Shoes_White_HQ6441_010_hover_standard.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e693773a595b42a1a137aebb0137497c_9366/STUNICON_SHOES_Blue_GA0898_02_standard_hover.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8185bd314c4f48e38ec9ae32009951fa_9366/ADI_ZOOM_SHOES_Black_GA0868_02_standard_hover.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e52e019e28f042c1a077af5400ec01fb_9366/Pureboost_22_Shoes_Black_HP9014_02_standard_hover.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b7f2395486846f4b8f9af49006a43d2_9366/HYPERON_1.0_SHOES_Grey_CM4822_02_standard_hover.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0333d0ea05a94d8c8b4daf8000bacf91_9366/Galaxy_6_Shoes_Green_HP2418_02_standard_hover.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a49591e560be4903b5f3647881918ff8_9366/Ultraboost_Light_Shoes_Green_IE1767_HM3_hover.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f571eb03cfd4e5792e7ae84003232e1_9366/Ultra_4DFWD_Shoes_Black_GX6632_02_standard_hover.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0fae64d233a64e8799ab262a8c0d8650_9366/Supernova_Rise_Shoes_Black_IG5846_HM3_hover.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/db5a63951c5a42f2a3eaae88018a08e1_9366/Galaxy_6_Shoes_Black_GW3848_02_standard_hover.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4993e0557d224195ace1afb000bc171f_9366/Ultraboost_Light_Red_HQ1402_02_standard_hover.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/579291ff6f4c4972ad9dab4a00a0c7fc_9366/Ultimashow_Shoes_Black_FX3632_02_standard_hover.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/93a47e10a8434b8daef4af0e0090d866_9366/WIND_RAISER_SHOES_Blue_GB2514_02_standard_hover.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f3b1b7c155444338733adcd00844fe2_9366/FLUIDFLOW_2.0_RUNNING_SHOE_Blue_EX2102_02_standard_hover.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a3c17f0964044059607af420143011f_9366/Ultraboost_1.0_Shoes_White_HQ6441_010_hover_standard.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e693773a595b42a1a137aebb0137497c_9366/STUNICON_SHOES_Blue_GA0898_02_standard_hover.jpg');
+}
+
+.card .card25:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8185bd314c4f48e38ec9ae32009951fa_9366/ADI_ZOOM_SHOES_Black_GA0868_02_standard_hover.jpg');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e52e019e28f042c1a077af5400ec01fb_9366/Pureboost_22_Shoes_Black_HP9014_02_standard_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b7f2395486846f4b8f9af49006a43d2_9366/HYPERON_1.0_SHOES_Grey_CM4822_02_standard_hover.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0333d0ea05a94d8c8b4daf8000bacf91_9366/Galaxy_6_Shoes_Green_HP2418_02_standard_hover.jpg');
+}
+
+.card-container .card img .text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+.next a {
+    margin-left: 83.5%;
+    color: black;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+.container2 {
+    align-items: left;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    flex: 1 0 200px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*
+.yellowbar h1 {
+    text-align: center;
+} */
+
+
+/*footer.css part updated here*/
+
+.footerX {
+    margin: 0px;
+    padding: 0px;
+  background-color: #f5f5e5;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.footerX .containerwomen{
+   
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;;
+    /* padding:60px; */
+}
+.containerwomen h2{
+    margin:10px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+.containerwomen p{
+    
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    width:60%;
+    
+    
+}
+@media screen and (min-width: 290px) and (max-width: 600px){
+    .footerX .containerwomen h2{
+        text-align: left;
+        margin-left:10%; 
+    }
+    .footerX .containerwomen p {
+        justify-content: center;
+        text-align: left !important;
+        gap: 10px;
+        margin-left:10%; 
+        
+        
+        /* padding-block:20px;
+        padding-inline:15px; */
+    }
+
+}
+    
+@media screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+
+    .card {
+        width: 33%;
+        margin: 0;
+    }
+
+    .card-container {
+        width: 100% !important;
+    }
+
+    hr {
+        margin: 1px;
+    }
+
+    .filter p {
+        display: none;
+        border: none;
+    }
+
+    #a1 {
+        display: none;
+    }
+
+    .paraN p {
+        height: auto;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .paraN p::after {
+        content: 'Show more';
+        display: inline-block;
+        color: black;
+        cursor: pointer;
+    }
+
+   
+    .card:hover .paragraph {
+
+        top: 56%;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width:500px) {
+    .main {
+        width: 100%;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .card {
+        min-width: 49%;
+    }
+
+    .card img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .paragraph {
+        bottom: 0% !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .card-container {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: fit-content;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .card {
+        width: 19rem !important;
+        margin-bottom: -0.5rem !important;
+    }
+
+    .paragraph {
+        bottom: 15% !important;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .card-container {
+        width: 100% !important;
+    }
+
+    .card {
+        width: 14rem !important;
+        margin-bottom: 2rem;
+    }
+
+    .paragraph {
+        bottom: 38% !important;
+    }
+}
+
+@media screen and (max-width:1470px) {
+    .main {
+        width: 100%;
+    }
+
+    .card-container {
+        width: 80%;
+        margin: auto
+    }
+
+    .card {
+        width: 17rem;
+    }
+
+    .paragraph {
+        bottom: 24%;
+    }
+}
+
+.blackNavbefore {
+  background-color: black;
+  color: white;
+  padding: 0.938rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-top: transparent;
+}
+
+.yellow {
+  width:100%; 
+  background-color: #ede734;
+  /* padding: 2.5rem; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* width: 100%; */
+}
+
+.yellow .footerCaption {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: bolder;
+  font-size: 1.875rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  flex-wrap: nowrap;
+  -webkit-text-stroke-width: 1px;
+  width: 50%;
+}
+
+.buttonwrapCss {
+  margin-right: 10rem;
+  background-color: none;
+  border: 1px solid black;
+}
+
+.signupButtonCss svg {
+  transform: rotate(180deg);
+  width: 2rem;
+  margin-bottom: 4px;
+}
+
+.signupButtonCss {
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: flex;
+  padding: 7px 10px;
+  position: relative;
+  width: auto;
+  justify-content: flex-start;
+  transform: translate(-3px, -3px);
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.freeCss {
+  background-color: black;
+  border-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.freeCss:hover {
+  transform: translate(0px, 0px);
+  /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+  opacity: 0.1px;
+}
+
+.freeCss:hover {
+  color: #767677;
+}
+
+.buttonContentCss {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttonContentCss .material-symbols-sharp {
+  font-size: 15rem;
+}
+
+.afterblacknav {
+  background-color: black;
+  font-size: 0.938rem;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.afterblacknav ul {
+  list-style: none;
+}
+
+.afterblacknav li {
+  padding: 0.625rem 0.938rem;
+
+}
+
+.afterblacknav a {
+  text-decoration: none;
+  color: white;
+}
+
+.afterblacknav a:hover {
+  text-decoration: underline;
+}
+
+.footerlist {
+  /* width:65%; */
+  margin: auto;
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footerlist h5 {
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footerlist li {
+  list-style: none;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+  cursor: pointer;
+}
+
+.adi-list-product {
+  padding: 1.25rem;
+}
+
+.adi-list-sports {
+  padding: 1.25rem;
+}
+
+.adi-list-collections {
+  padding: 1.25rem;
+}
+
+.adi-list-support {
+  padding: 1.25rem;
+}
+
+.adi-list-company-info {
+  padding: 1.25rem;
+}
+
+.adi-list-follow-us {
+  padding: 1.25rem;
+}
+
+.grayfooter {
+  background-color: #282c31;
+  /* width:100%; */
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.topcontent {
+  color: #D3D7DA;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+.bottomcontent {
+  color: #D3D7DA;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 290px) and (max-width: 959px) {
+  .footerX .containerwomen {
+    flex-direction: column;
+  }
+
+  .footerX .left-half,
+  .footerX .right-half {
+    width: 100%;
+  }
+
+  .yellow {
+    flex-direction: column !important;
+  }
+
+  .footerCaption {
+    margin: auto; 
+    text-align: center;
+    font-size: 1rem !important;
+  }
+
+  .buttonwrapCss {
+    /* border: 0.04rem; */
+    /* position: absolute; */
+    margin-right: 0rem;
+  }
+
+  .footerlist {
+    display: none;
+  }
+}
+
+@media screen and (min-width:960px) {
+  .blackNavbefore {
+    display: none;
+  }
+
+  .afterblacknav {
+    display: none;
+  }
+
+  .yellow .footerCaption {
+    display: inline-block;
+  }
+}
