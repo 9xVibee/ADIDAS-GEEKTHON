@@ -1,3 +1,13 @@
+Shery.textAnimate(".navbar .header-black-section" /* Element to target.*/, {
+  //Parameters are optional.
+  style: 1,
+  y: 10,
+  delay: 0.1,
+  duration: 2,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  multiplier: 0.1,
+});
+
 let lastScrollY = 0;
 
 window.addEventListener("scroll", function () {
@@ -74,4 +84,10 @@ const closebtnSignup = document.getElementById("close-btn-signup");
 closebtnSignup.addEventListener("click", function () {
   const signupDisplay = document.getElementById("signup-display");
   signupDisplay.classList.add("display");
+});
+
+// Shery Js
+Shery.makeMagnet(".menu-bar", {
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
 });
