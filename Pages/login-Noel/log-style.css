@@ -283,7 +283,7 @@ h1 {
     background-color: none;
     border: 1px solid black;
     width: 167px;
-    /* margin-top: 20rem !important; */
+    margin-top: 10% !important;
 }
 
 .signupButton {
@@ -311,7 +311,6 @@ h1 {
     letter-spacing: 1px;
     line-height: 20px;
     text-decoration: none;
-
 }
 
 .free:hover {
@@ -328,9 +327,13 @@ h1 {
     font-size: 15rem;
 }
 
-@media screen and (max-width:1020px) {
+.terms-condition {
+    margin-bottom: -3rem;
+}
+
+@media screen and (max-width:1024px) {
     .terms-condition {
-        margin-bottom: -15rem;
+        margin-bottom: -12rem;
     }
 }
 
@@ -345,11 +348,9 @@ h1 {
 
     .left-part {
         width: 110%;
-        /* border: 1px solid red; */
     }
 
     .right-part {
-        /* border: 1px solid red; */
         width: 110% !important;
         margin-left: -3rem;
     }
@@ -377,14 +378,14 @@ h1 {
 }
 
 @media screen and (max-width:463px) {
-    .buttonwrap {
-        margin-top: 5rem;
+    .terms-condition {
+        margin-bottom: -8rem !important;
     }
 }
 
-@media screen and (max-width:375px) {
-    .buttonwrap {
-        margin-top: 8rem;
+@media screen and (max-width:380px) {
+    .terms-condition {
+        margin-bottom: -5rem !important;
     }
 }
 
@@ -450,6 +451,7 @@ body {
 }
 
 .footer {
+
     background-color: #f5f5e5;
     align-items: center;
     width: 100%;
@@ -687,6 +689,12 @@ body {
     font-size: 0.75rem;
     line-height: 1rem;
     font-weight: 500;
+}
+
+@media screen and (max-width:778px) {
+    .btn-signup {
+        margin-top: 15rem !important;
+    }
 }
 
 @media screen and (min-width: 290px) and (max-width: 959px) {
