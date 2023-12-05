@@ -21,15 +21,15 @@ body {
     margin-left: 10.5% !important;
 }
 
-@media screen and (max-width:390px) {
-    .hot {
-        margin-left: 1% !important;
-    }
-}
-
 @media screen and (max-width:1005px) {
     .hot {
         margin-left: 8.5% !important;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .hot {
+        margin-left: -10% !important;
     }
 }
 
@@ -857,7 +857,7 @@ body {
 
 @media screen and (max-width:1060px) {
     .home-buttons-container {
-        bottom: -60% !important;
+        bottom: 5% !important;
         left: 10% !important;
     }
 }
@@ -879,6 +879,11 @@ body {
 
     .home {
         height: 100vh !important;
+    }
+
+    .home-buttons-container-1 {
+        bottom: -60% !important;
+        left: 10% !important;
     }
 }
 
@@ -911,6 +916,17 @@ body {
     position: absolute;
     bottom: 8%;
     left: -10%;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.home-buttons-container-1 {
+    width: 80%;
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
     display: flex;
     align-items: flex-end;
     gap: 10px;
@@ -976,7 +992,7 @@ body {
 
 @media screen and (max-width:700px) {
     .checkout {
-        bottom: 18% !important;
+        bottom: 20% !important;
     }
 }
 
@@ -1015,6 +1031,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    /* border: 1px solid red; */
 }
 
 .popular-categories {
@@ -1060,13 +1077,20 @@ body {
     padding-bottom: 0;
 }
 
+.pop-head {
+    margin-left: 4.8% !important;
+    margin-bottom: -3rem;
+}
+
 @media screen and (max-width:960px) {
     .popular-now-container {
         gap: 1rem;
     }
 
     .pop-head {
+        /* margin-left: 5% !important; */
         font-size: 1.3rem;
+        margin-bottom: -1rem !important;
     }
 
     .popular-categories {
@@ -1148,6 +1172,12 @@ body {
     }
 }
 
+@media screen and (max-width:390px) {
+    .waysf-heading h1 {
+        font-size: 2rem;
+    }
+}
+
 
 /* Footer */
 @import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
@@ -1177,17 +1207,17 @@ body {
 
 .left-half,
 .right-half {
-
     box-sizing: border-box;
 }
 
+
 .left-half h1 {
-    font-weight: 700;
-    font-size: 1.75rem;
+    font-weight: 600;
+    font-size: 1.7rem;
     line-height: 2.25rem;
     margin: 0px 0px 0.625rem;
-    text-decoration: none solid rgb(0, 0, 0);
-
+    -webkit-text-stroke-width: 0px !important;
+    margin-left: 5% !important;
 }
 
 .right-half h2 {
@@ -1195,7 +1225,6 @@ body {
     font-size: 1.75rem;
     line-height: 2.25rem;
     margin: 0px 0px 0.625rem;
-
 }
 
 .left-half p {
@@ -1338,7 +1367,7 @@ body {
 
 .footerlist h5 {
     font-size: 1.25rem;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: 700;
     line-height: 1.5rem;
     margin-bottom: 1rem;
@@ -1401,6 +1430,7 @@ body {
 @media screen and (min-width: 290px) and (max-width: 959px) {
     .footer .container {
         flex-direction: column;
+        gap: 2rem;
     }
 
     .footer .left-half,

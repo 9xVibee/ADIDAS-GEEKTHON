@@ -7,14 +7,12 @@
 /* ----button---- */
 .btn-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 20rem;
     height: 50px;
-    margin-top: 6rem;
-    margin-bottom: 0.5rem;
+    margin-top: 3.5rem;
     margin-left: 7%;
     padding: 5px;
-
 }
 
 .btn-container a {
@@ -25,7 +23,7 @@
     height: 100%;
     background-color: black;
     border: 1px solid black;
-    font-size: 1;
+    font-size: 1rem !important;
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -40,7 +38,12 @@
     margin-left: 1rem;
 }
 
-
+@media screen and (max-width:390px) {
+    .btn-container a {
+        width: 8rem !important;
+        font-size: 0.8rem !important;
+    }
+}
 
 /* ------carousel------  */
 .carosul-1 {
@@ -405,6 +408,7 @@ a {
     .btn-container {
         margin-left: 8%;
     }
+
 
     /* -----WHAT'S HOT---- */
     .hot {
