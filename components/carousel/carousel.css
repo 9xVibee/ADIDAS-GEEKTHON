@@ -93,9 +93,9 @@
 }
 
 
-/* .product-container::-webkit-scrollbar{
-    display: none;
-} */
+.product-container-2 a {
+    text-decoration: none;
+}
 
 .product-card {
     flex: 0 0 auto;
@@ -357,11 +357,11 @@
 }
 
 .shop-now {
-    padding-top: 1rem;
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 2px;
     font-weight: bold;
+    margin-left: -0.6rem !important;
 }
 
 a {

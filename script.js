@@ -2,6 +2,7 @@ let lastScrollY = 0;
 
 window.addEventListener("scroll", function () {
   const navbar = this.document.querySelector(".navbar");
+  const uparrow = this.document.getElementById("uparrow");
 
   if (this.window.scrollY > 100) {
     if (lastScrollY > this.window.scrollY)
@@ -9,6 +10,18 @@ window.addEventListener("scroll", function () {
     else navbar.classList.add("nav-display");
   } else {
     navbar.classList.remove("nav-display");
+  }
+
+  if (this.window.scrollY > 200) {
+    gsap.to(".UpArrow", {
+      opacity: 1,
+      duration: 0.3,
+    });
+  } else {
+    gsap.to(".UpArrow", {
+      opacity: 0,
+      duration: 0.3,
+    });
   }
 
   lastScrollY = this.window.scrollY;
