@@ -242,8 +242,10 @@ ul{
         margin-right: 20%;
     }
     .right-section{
-        margin-left: 22%;
-        margin-right: 18%;
+    
+        justify-content:center;  
+        gap:1rem;
+        padding-right: 6px !important; 
     }
     /* .girls-shoe-section{
         /* padding-left: 5%; */
