@@ -140,7 +140,8 @@ background-image: none;
 .statement-summary{
     opacity: 0.8;
     text-align: center;
-    margin: 2rem;
+    /* margin: 2rem; */
+    /* margin-bottom: 1rem; */
     margin-left: 20rem;
     width:55%;
     height:30%;
@@ -225,7 +226,9 @@ ul{
     }
 
     .data{
-        font-weight: 900;
+        display:none;
+    }
+        /* font-weight: 900;
         justify-content: center;
         margin: auto;
         text-align: center;
@@ -246,7 +249,7 @@ ul{
         justify-content:center;  
         gap:1rem;
         padding-right: 6px !important; 
-    }
+    } */
     /* .girls-shoe-section{
         /* padding-left: 5%; */
         /* text-align: center;
