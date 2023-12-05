@@ -1,5 +1,6 @@
-* {
-    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+.hot {
+    /* color: red !important; */
+    margin-left: 10.5rem;
 }
 
 .product-container-2 {
@@ -92,54 +93,8 @@
     top: 45%;
 }
 
-@media screen and (max-width:1062px) {
-    .men-home-p {
-        left: 10%;
-        top: 75%;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .home-buttons-container {
-        bottom: -60% !important;
-    }
-
-    .men-home-p {
-        top: 122% !important;
-    }
-
-    .winter-men-p {
-        top: 80% !important;
-    }
-}
-
-.hot {
-    margin-left: 11% !important;
-}
-
-.carosul-2 {
-    margin-top: 1rem !important;
-}
-
-@media screen and (max-width:1442px) {
-    .carosul-2 {
-        margin-top: 0 !important;
-        margin-left: 4rem !important;
-    }
-}
-
-@media screen and (max-width:430px) {
-    .carosul-2 {
-        margin-left: 0 !important;
-    }
-
-    .hot {
-        margin-left: 0% !important;
-    }
-}
-
-/* Footer X */
 .footerX .containerwomen {
+
     text-align: center;
     justify-content: center;
     margin-bottom: 2rem;
@@ -156,11 +111,13 @@
 }
 
 .containerwomen p {
+
     margin: auto;
     justify-content: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 18px;
     width: 60%;
+
 
 
 }
@@ -171,16 +128,18 @@
         text-align: left;
         margin-left: 10%;
     }
-    .footerX .containerwomen h2{
+
+    .footerX .containerwomen h2 {
         justify-content: center;
         text-align: left;
-    
+
     }
+
     .footerX .containerwomen p {
-    
+
         text-align: left !important;
-        gap: 10px;
-        margin: 0%;
+        font-size: 16px;
+        width: 100%;
 
         /* padding-block:20px;
         padding-inline:15px; */
@@ -480,4 +439,51 @@ body {
 
     }
 
+}
+
+
+@media screen and (max-width:1062px) {
+    .men-home-p {
+        left: 10%;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .home-buttons-container {
+        bottom: -60% !important;
+    }
+
+    .men-home-p {
+        top: 122% !important;
+    }
+
+    .winter-men-p {
+        top: 80% !important;
+    }
+}
+
+.hot {
+    margin-left: 10% !important;
+}
+
+.carosul-2 {
+    margin-top: 3.5rem !important;
+}
+
+@media screen and (max-width:1442px) {
+    .carosul-2 {
+        margin-top: 0 !important;
+        margin-left: 4rem !important;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .carosul-2 {
+        margin-left: 0 !important;
+    }
+
+    .hot {
+        margin-left: 0% !important;
+    }
 }
