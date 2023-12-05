@@ -21,6 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../../style.css" />
+    <!-- <link rel="stylesheet" href="../../components/Footer/footer.css" /> -->
   </head>
   <body>
     <!-- Header Adidas -->
@@ -34,10 +35,18 @@
       <!-- login signup bar -->
       <div class="bar-2">
         <ul>
-          <li>help</li>
-          <li>returns</li>
-          <li>order tracker</li>
-          <li>sign up</li>
+          <a href="./Pages/login-Noel/log-in.html">
+            <li>help</li>
+          </a>
+          <a href="./Pages/login-Noel/log-in.html">
+            <li>returns</li>
+          </a>
+          <a href="./Pages/login-Noel/log-in.html">
+            <li>order tracker</li>
+          </a>
+          <!-- <a href="#" id="signup-btn"> -->
+          <li id="signup-btn">sign up</li>
+          <!-- </a> -->
           <a href="./Pages/login-Noel/log-in.html">
             <li>log in</li>
           </a>
@@ -715,6 +724,249 @@
       </div>
     </div>
 
+    <!-- SideBar -->
+    <div class="sidebar">
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        <div class="adidas-logo">
+          <svg viewBox="100 100 50 32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M 150.07 131.439 L 131.925 100 L 122.206 105.606 L 137.112 131.439 L 150.07 131.439 Z M 132.781 131.439 L 120.797 110.692 L 111.078 116.298 L 119.823 131.439 L 132.781 131.439 Z M 109.718 121.401 L 115.509 131.439 L 102.551 131.439 L 100 127.007 L 109.718 121.401 Z"
+              fill="black"
+            ></path>
+          </svg>
+        </div>
+        <div class="cross-logo">
+          <button class="close-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Sidebar Body -->
+      <div class="sidebar-body">
+        <div class="heading-icon-grp">
+          <p class="bold-sidebar">men</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="bold-sidebar">women</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="bold-sidebar">kids</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="normal">Sports</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="normal">brands</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="normal">lifestyle</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="normal">online Exclusive</p>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="bold-sidebar">WINTER shop</p>
+        </div>
+        <div class="heading-icon-grp">
+          <p class="normal">Cricket</p>
+        </div>
+        <div class="last-sidebar heading-icon-grp">
+          <p class="bold-sidebar sidebar-red">outlet</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <!-- login section -->
+        <a href=""> Order Tracker </a>
+        <a href=""> My Profile </a>
+        <a href=""> Store Finder </a>
+        <a href=""> Help & Customer Service </a>
+        <a href=""> Returns </a>
+        <a href=""> Signup </a>
+      </div>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <img src="./assest/sidebar/in.svg" alt="" />
+        India
+      </div>
+    </div>
+
+    <!-- Search sidebar -->
+    <div class="search-sidebar">
+      <div class="input-icon-container-sidebar">
+        <div class="left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 close-search-sidebar"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+          <input type="text" placeholder="Search" id="searchSidebarInput" />
+        </div>
+        <p class="clear-content">clear</p>
+      </div>
+    </div>
+
+    <!-- Sign up page -->
+    <div class="singup-home display" id="signup-display">
+      <!-- Content -->
+      <div class="signup-container">
+        <!-- Close Button -->
+        <div class="closebtn-container-signup" id="close-btn-signup">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+
+        <!-- Content inside -->
+        <div class="sgright-part">
+          <div class="sgimg-right">
+            <img
+              src="https://account-frontends.adidas.com/account_account-portal/1.0.0-experimental.14/assets/adiclub-blue-desktop.e34c412f9253e8d5.svg"
+              alt="image loading"
+            />
+          </div>
+          <h1>YOUR ADICLUB BENEFITS AWAIT</h1>
+          <p class="sgfree-shipping">
+            Get free shipping, discount vouchers and members only products when
+            you're in adiClub.
+          </p>
+          <div class="sglogin-signup">
+            <h3>Log in or sign up (it's free)</h3>
+            <div class="sgicons">
+              <div class="sgapple-icon sgicon-signup">
+                <img
+                  src="./images-login/apple.png"
+                  alt="appleicon"
+                  class="apple"
+                />
+              </div>
+              <div class="sgfb-icon sgicon-signup">
+                <img src="./images-login/fb.png" alt="fbicon" class="fb" />
+              </div>
+              <div class="sgg-icon sgicon-signup">
+                <img src="./images-login/g.png" alt="googleicon" class="g" />
+              </div>
+            </div>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="   EMAIL ADDRESS *"
+            />
+          </div>
+          <div class="sgterms-condition">
+            <div class="sgcondition">
+              <div class="sgpara-check-container">
+                <div class="csgheck1">
+                  <input type="checkbox" class="sgcheckbox1 cb" name="cc" />
+                </div>
+                <div class="sgcon1">
+                  <p>
+                    I would like to stay up to date with adidas. I agree to
+                    receive personalised marketing messages from adidas India
+                    Marketing Pvt. Ltd.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+              <div class="sgpara-check-container">
+                <div class="sgheck1">
+                  <input type="checkbox" class="sgcheckbox1 cb" name="cc" />
+                </div>
+                <div class="sgsgcon1">
+                  <p>
+                    I would like to stay up to date with adidas. I agree to
+                    receive personalised marketing messages from adidas India
+                    Marketing Pvt. Ltd.
+                  </p>
+                </div>
+              </div>
+              <div class="sgpara-check-container">
+                <div class="sgcheck1">
+                  <input
+                    type="checkbox"
+                    class="sgcheckbox1 cb"
+                    name="ccdiv"
+                    checked
+                  />
+                </div>
+                <div class="sgcon1">
+                  <p>
+                    I would like to stay up to date with adidas. I agree to
+                    receive personalised marketing messages from adidas India
+                    Marketing Pvt. Ltd.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sgbuttonwrap">
+            <button type="button" class="sgsignupButton free">
+              <span class="sgbuttonContent">SHOP MEN</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Login -->
     <div class="login">
       <div class="left-part">
@@ -818,55 +1070,253 @@
           />
         </div>
         <div class="terms-condition">
-          <div class="checkbox">
-            <div class="check1">
-              <input type="checkbox" class="checkbox1" class="cb" name="cc" />
-            </div>
-            <div class="check2">
-              <input type="checkbox" class="checkbox2" class="cb" name="cc" />
-            </div>
-            <div class="check3">
-              <input
-                type="checkbox"
-                class="checkbox3"
-                class="cb"
-                name="cc"
-                checked
-              />
-            </div>
-          </div>
-
           <div class="condition">
-            <div class="con1">
-              <p>
-                I would like to stay up to date with adidas. I agree to receive
-                personalised marketing messages from adidas India Marketing Pvt.
-                Ltd.
-              </p>
-              <a href="#">Read more</a>
+            <div class="para-check-container">
+              <div class="check1">
+                <input type="checkbox" class="checkbox1 cb" name="cc" />
+              </div>
+              <div class="con1">
+                <p>
+                  I would like to stay up to date with adidas. I agree to
+                  receive personalised marketing messages from adidas India
+                  Marketing Pvt. Ltd.
+                </p>
+                <a href="#">Read more</a>
+              </div>
             </div>
-            <div class="con2">
-              <p>
-                I have read and accepted the Terms & Conditions, the adiClub
-                Terms & Conditions and the adidas Privacy Policy.
-              </p>
+            <div class="para-check-container">
+              <div class="check1">
+                <input type="checkbox" class="checkbox1 cb" name="cc" />
+              </div>
+              <div class="con1">
+                <p>
+                  I would like to stay up to date with adidas. I agree to
+                  receive personalised marketing messages from adidas India
+                  Marketing Pvt. Ltd.
+                </p>
+              </div>
             </div>
-            <div class="con3">
-              <p>Keep me logged in. Applies to all options.</p>
-              <a href="#">More info</a>
+            <div class="para-check-container">
+              <div class="check1">
+                <input
+                  type="checkbox"
+                  class="checkbox1 cb"
+                  name="ccdiv"
+                  checked
+                />
+              </div>
+              <div class="con1">
+                <p>
+                  I would like to stay up to date with adidas. I agree to
+                  receive personalised marketing messages from adidas India
+                  Marketing Pvt. Ltd.
+                </p>
+                <a href="#">Read more</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="buttonwrap">
+        <div class="buttonwrap btn-signup">
           <button type="button" class="signupButton free">
-            <span class="buttonContent"> CONTINUE</span>
-            <span class="material-symbols-sharp"> arrow_right_alt </span>
+            <span class="buttonContent">SHOP MEN</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+              />
+            </svg>
           </button>
         </div>
       </div>
     </div>
-    <!-- </div> -->
 
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="left-half">
+          <h1>STORIES, STYLES AND SPORTSWEAR AT ADIDAS, SINCE 1949</h1>
+          <p>
+            Sport keeps us fit. Keeps you mindful. Brings us together. Through
+            sport we have the power to change lives. Whether it is through
+            stories of inspiring athletes. Helping you to get up and get moving.
+            Sportswear featuring the latest technologies, to up your
+            performance. Beat your PB. adidas offers a home to the runner, the
+            basketball player, the soccer kid, the fitness enthusiast. The
+            weekend hiker that loves to escape the city. The yoga teacher that
+            spreads the moves. The 3-Stripes are seen in the music scene. On
+            stage, at festivals. Our sports clothing keeps you focused before
+            that whistle blows. During the race. And at the finish lines. We’re
+            here to support creators. Improve their game. Their lives. And
+            change the world.
+          </p>
+          <p>
+            adidas is about more than sportswear and workout clothes. We partner
+            with the best in the industry to co-create. This way we offer our
+            fans the sports apparel and style that match their athletic needs,
+            while keeping sustainability in mind. We’re here to support
+            creators. Improve their game. Create change. And we think about the
+            impact we have on our world.
+          </p>
+        </div>
+
+        <div class="right-half">
+          <h2>WORKOUT CLOTHES, FOR ANY SPORT</h2>
+          <p>
+            adidas designs for and with athletes of all kinds. Creators, who
+            love to change the game. Challenge conventions. Break the rules and
+            define new ones. Then break them again. We supply teams and
+            individuals with athletic clothing pre-match. To stay focussed. We
+            design sports apparel that get you to the finish line. To win the
+            match. We support women, with bras and tights made for purpose. From
+            low to high support. Maximum comfort. We design, innovate and
+            itterate. Testing new technologies in action. On the pitch, the
+            tracks, the court, the pool. Retro workout clothes inspire new
+            streetwear essentials. Like NMD, Ozweego and our Firebird
+            tracksuits. Classic sports models are brought back to life. Like
+            Stan Smith. And Superstar. Now seen on the streets and the stages.
+          </p>
+          <p>
+            Through our collections we blur the borders between high fashion and
+            high performance. Like our adidas by Stella McCartney athletic
+            clothing collection – designed to look the part inside and outside
+            of the gym. Or some of our adidas Originals lifestyle pieces, that
+            can be worn as sportswear too. Our lives are constantly changing.
+            Becoming more and more versatile. And adidas designs with that in
+            mind.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="blackNavbefore">
+      <div class="lefttext">LOGIN</div>
+      <div class="righttext">YOUR BAG (0)</div>
+    </div>
+    <div class="yellow">
+      <span class="footerCaption">JOIN ADIDAS AND GET 15% OFF</span>
+      <div class="buttonwrapCss">
+        <button type="button" class="signupButtonCss freeCss">
+          <span class="buttonContentCss"> SIGN UP FOR FREE</span>
+          <span class="material-symbols-sharp"> arrow_right_alt </span>
+        </button>
+      </div>
+    </div>
+    <div class="afterblacknav">
+      <div class="blackserviceleft">
+        <ul>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Order Tracker</a></li>
+          <li><a href="#">Store Finder</a></li>
+          <li><a href="#">adiclub terms and conditions</a></li>
+        </ul>
+      </div>
+      <div class="blackserviceright">
+        <ul>
+          <li><a href="#">Returns & Refunds</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">adiclub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerlist">
+      <div class="adi-list-product">
+        <h5>PRODUCT</h5>
+
+        <li>Footwear</li>
+
+        <li>Clothing</li>
+        <li>Accessories</li>
+        <li>Outlet–Sale</li>
+        <li>New Arrivals</li>
+        <li>Special Offer</li>
+        <li>Flat 50% Off!</li>
+      </div>
+      <div class="adi-list-sports">
+        <h5>SPORTS</h5>
+
+        <li>Cricket</li>
+
+        <li>Running</li>
+        <li>Football</li>
+        <li>Gym/Training</li>
+        <li>Tennis</li>
+        <li>Outdoor</li>
+        <li>Basketball</li>
+        <li>Swimming</li>
+        <li>Skateboarding</li>
+      </div>
+      <div class="adi-list-collections">
+        <h5>COLLECTIONS</h5>
+
+        <li>Ultraboost</li>
+
+        <li>Superstar</li>
+        <li>NMD</li>
+        <li>Stan smith</li>
+        <li>sustainability</li>
+        <li>Predator</li>
+        <li>Parley</li>
+        <li>adicolor</li>
+      </div>
+      <div class="adi-list-support">
+        <h5>SUPPORT</h5>
+
+        <li>Help</li>
+
+        <li>Customer Services</li>
+        <li>Return & Exchanges</li>
+        <li>Shipping</li>
+        <li>Order Tracking</li>
+        <li>Store Locator</li>
+        <li>Bra Fit Guide</li>
+        <li>adiclub</li>
+        <li>adiclub Terms & Conditions</li>
+      </div>
+      <div class="adi-list-company-info">
+        <h5>COMPANY INFO</h5>
+
+        <li>About Us</li>
+
+        <li>Clothing</li>
+        <li>Adidas Stories</li>
+        <li>adidas apps</li>
+        <li>Entities Details</li>
+        <li>Press</li>
+        <li>Careers</li>
+      </div>
+      <div class="adi-list-follow-us">
+        <h5>FOLLOW US</h5>
+        <li>
+          <a href="https://www.instagram.com/adidasindia/"
+            ><img
+              src="NEWinstagram_logo-footer_tcm209-875968.jpeg"
+              alt="insta"
+            />
+          </a>
+        </li>
+      </div>
+    </div>
+    <div class="grayfooter">
+      <div class="topcontent">
+        Privacy Policy | Terms and Conditions | Cookies
+      </div>
+      <br />
+      <div class="bottomcontent">©2021 adidas India Marketing Pvt. Ltd</div>
+    </div>
+    <!-- <script src="./login.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+      integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="../../script.js"></script>
   </body>
 </html>
