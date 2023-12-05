@@ -61,3 +61,17 @@ clearContent.addEventListener("click", function () {
   searchSidebarInput.value = "";
   clearContent.style.display = "none";
 });
+
+// Sign up
+const signupBtn = document.getElementById("signup-btn");
+signupBtn.addEventListener("click", function () {
+  const signupDisplay = document.getElementById("signup-display");
+  signupDisplay.classList.remove("display");
+  console.log("clicked");
+});
+
+const closebtnSignup = document.getElementById("close-btn-signup");
+closebtnSignup.addEventListener("click", function () {
+  const signupDisplay = document.getElementById("signup-display");
+  signupDisplay.classList.add("display");
+});

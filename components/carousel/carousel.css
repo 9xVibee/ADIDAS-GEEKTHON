@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 15rem;
+    width: 14rem;
     height: 100%;
     background-color: black;
     border: 1px solid black;
@@ -264,15 +264,32 @@
 
 /* -----WHAT'S HOT---- */
 .hot {
-    margin-left: 7rem;
+    margin-left: 7.5%;
+    margin-bottom: -5%;
 }
 
+/* hot media query */
+@media screen and (max-width:400px) {
+    .hot {
+        margin-left: 10% !important;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .hot {
+        margin-bottom: -1%;
+    }
+}
+
+/* hot media query end*/
+
+
 .carosul-2 {
-    margin-top: -70px;
     display: flex;
     align-items: center;
     min-height: 100vh;
     background-color: white;
+    margin-left: -0.2rem;
 }
 
 .product-2 {
@@ -412,13 +429,13 @@ a {
 
     /* -----WHAT'S HOT---- */
     .hot {
-        margin-top: -70px;
+        /* margin-top: -70px; */
         margin-left: 50px;
     }
 
     /* ------carousel-2------  */
     .carosul-2 {
-        margin-top: -90px;
+        /* margin-top: -90px; */
     }
 }
 
