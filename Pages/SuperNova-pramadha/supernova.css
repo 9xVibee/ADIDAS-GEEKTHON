@@ -1,9 +1,9 @@
+
 @import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
 
-body {
+/* body {
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
     font-weight: lighter;
-   
 }
 
 .navbar {
@@ -122,7 +122,7 @@ body {
 }
 
 hr {
-    /* color: #a6a6b0; */
+    
     background-color: #e9eaeb;
     height: 0.01em;
     border: none;
@@ -132,7 +132,7 @@ hr {
 
 .card {
     width: 18rem;
-    /* width: 100%; */
+    
     box-sizing: border-box;
     position: relative;
     height: 22rem;
@@ -169,7 +169,7 @@ hr {
 
 .paragraph {
     position: absolute;
-    /* top: 64%; */
+    
     bottom: 19%;
     left: 1.5%;
     width: 6.2rem;
@@ -182,7 +182,7 @@ hr {
 
 .card:hover .paragraph {
     bottom: 20%;
-}
+} */
 
 .card .card1:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5b262fe50704fbebcb0d99adea69b53_9366/Ultra_4D_Shoes_Black_IG2262_02_standard_hover.jpg');
@@ -296,7 +296,7 @@ hr {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0333d0ea05a94d8c8b4daf8000bacf91_9366/Galaxy_6_Shoes_Green_HP2418_02_standard_hover.jpg');
 }
 
-.card-container .card img .text-overlay {
+/* .card-container .card img .text-overlay {
     position: absolute;
     bottom: 10px;
     left: 0;
@@ -331,68 +331,350 @@ h4 {
     padding: 10px;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
-}
+    text-overflow: ellipsis; 
+}*/
+.footerX .containerwomen {
 
-/*
-.yellowbar h1 {
-    text-align: center;
-} */
-
-
-/*footer.css part updated here*/
-
-.footerX {
-    margin: 0px;
-    padding: 0px;
-  background-color: #f5f5e5;
-  align-items: center;
-  width: 100%;
-  display: flex;
-}
-.footerX .containerwomen{
-   
     text-align: center;
     justify-content: center;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
+    line-height: 30px;
     /* padding:60px; */
 }
-.containerwomen h2{
-    margin:10px 0px;
+
+.containerwomen h2 {
+    margin: 10px 0px;
     font-size: 30px;
     font-weight: 700;
     justify-content: center;
     text-align: center;
 }
-.containerwomen p{
-    
+
+.containerwomen p {
+
     margin: auto;
     justify-content: center;
     text-align: center;
     font-size: 18px;
-    width:60%;
-    
-    
+    width: 60%;
+   
+
+
 }
-@media screen and (min-width: 290px) and (max-width: 600px){
-    .footerX .containerwomen h2{
+
+@media screen and (min-width: 290px) and (max-width: 600px) {
+    .footerX {
+        justify-content: left;
         text-align: left;
-        margin-left:10%; 
+        margin-left: 10%;
     }
+
     .footerX .containerwomen p {
         justify-content: center;
         text-align: left !important;
         gap: 10px;
-        margin-left:10%; 
-        
-        
+        margin: 0%;
+
         /* padding-block:20px;
         padding-inline:15px; */
     }
 
 }
-    
-@media screen and (max-width: 768px) {
+
+
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'AdihausDIN'; */
+}
+
+.footer {
+    background-color: #f5f5e5;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    column-gap: 3.125rem;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    align-content: center;
+}
+
+.left-half,
+.right-half {
+
+    box-sizing: border-box;
+}
+
+.left-half h1 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin: 0px 0px 0.625rem;
+    text-decoration: none solid rgb(0, 0, 0);
+
+}
+
+.right-half h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin: 0px 0px 0.625rem;
+
+}
+
+.left-half p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.right-half p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.blackNavbefore {
+    background-color: black;
+    color: white;
+    padding: 0.938rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-top: transparent;
+}
+
+.yellow {
+    background-color: #ede734;
+    padding: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.yellow .footerCaption {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bolder;
+    font-size: 1.875rem;
+    transform: scaleY(0.9);
+    flex-wrap: nowrap;
+    -webkit-text-stroke-width: 1px;
+    width: 50%;
+    letter-spacing: 1px;
+}
+
+.buttonwrapCss {
+    margin-right: 10rem;
+    background-color: none;
+    border: 1px solid black;
+}
+
+.signupButtonCss svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.signupButtonCss {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.freeCss {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.freeCss:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
+
+.freeCss:hover {
+    color: #767677;
+}
+
+.buttonContentCss {
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttonContentCss .material-symbols-sharp {
+    font-size: 15rem;
+}
+
+.afterblacknav {
+    background-color: black;
+    font-size: 0.938rem;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.afterblacknav ul {
+    list-style: none;
+}
+
+.afterblacknav li {
+    padding: 0.625rem 0.938rem;
+
+}
+
+.afterblacknav a {
+    text-decoration: none;
+    color: white;
+}
+
+.afterblacknav a:hover {
+    text-decoration: underline;
+}
+
+.footerlist {
+    /* width:65%; */
+    margin: auto;
+    padding-bottom: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footerlist h5 {
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footerlist li {
+    list-style: none;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+}
+
+.adi-list-product {
+    padding: 1.25rem;
+}
+
+.adi-list-sports {
+    padding: 1.25rem;
+}
+
+.adi-list-collections {
+    padding: 1.25rem;
+}
+
+.adi-list-support {
+    padding: 1.25rem;
+}
+
+.adi-list-company-info {
+    padding: 1.25rem;
+}
+
+.adi-list-follow-us {
+    padding: 1.25rem;
+}
+
+.grayfooter {
+    background-color: #282c31;
+    /* width:100%; */
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topcontent {
+    color: #D3D7DA;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.bottomcontent {
+    color: #D3D7DA;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 290px) and (max-width: 959px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .left-half,
+    .footer .right-half {
+        width: 100%;
+    }
+
+    .yellow {
+        flex-direction: column !important;
+    }
+
+    .footerCaption {
+        margin: auto;
+        text-align: center;
+        font-size: 1.3rem !important;
+    }
+
+    .buttonwrapCss {
+        margin-right: 0rem;
+    }
+
+    .footerlist {
+        display: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .blackNavbefore {
+        display: none;
+    }
+
+    .afterblacknav {
+        display: none;
+    }
+
+    .yellow .footercaption {
+        display: inline-block;
+
+    }
+
+}
+/* @media screen and (max-width: 768px) {
     .main {
         width: 100%;
     }
@@ -434,7 +716,7 @@ h4 {
         cursor: pointer;
     }
 
-   
+    
     .card:hover .paragraph {
 
         top: 56%;
@@ -444,9 +726,16 @@ h4 {
 
 }
 
+ */
+/* 
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .card {
+        width: 30%; 
+        margin: 5px;
+    }
+} */
 
-
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     .main {
         width: 100%;
     }
@@ -467,7 +756,13 @@ h4 {
     .paragraph {
         bottom: 0% !important;
     }
-}
+
+    /* 
+    .card:hover .paragraph {
+        top: 54%;
+    } */
+
+/* } 
 
 @media screen and (max-width:320px) {
     .card-container {
@@ -478,9 +773,45 @@ h4 {
         width: 100%;
         height: fit-content;
         font-size: 16px;
-    }
-}
+    } */
 
+    /* .paragraph {
+        font-size: 14px;
+        left: 5px;
+        top: 62%
+    } */
+
+    /* .card:hover .paragraph {
+        top: 60%;
+
+    } 
+}*/
+
+/* @media screen and (max-width:1024px){
+    .main{
+        width:96%;
+    }
+} */
+/* @media  and (max-width:375px) {
+    .card{
+        min-width:10rem;
+        font-size: 14px;
+    }
+    .paragraph {
+        font-size: 14px; 
+        left: 5px;
+        top:500px
+    }
+    .card img{
+        width:100%;
+        height:80%;
+    }
+    .card:hover .paragraph{
+        top:54%;
+        
+    }
+}  */
+/* 
 @media screen and (max-width:990px) {
     .card {
         width: 19rem !important;
@@ -524,238 +855,4 @@ h4 {
     .paragraph {
         bottom: 24%;
     }
-}
-
-.blackNavbefore {
-  background-color: black;
-  color: white;
-  padding: 0.938rem;
-  display: flex;
-  justify-content: space-around;
-  font-size: 0.875rem;
-  font-weight: 700;
-  border-top: transparent;
-}
-
-.yellow {
-  width:100%; 
-  background-color: #ede734;
-  /* padding: 2.5rem; */
-  text-align: center;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  /* width: 100%; */
-}
-
-.yellow .footerCaption {
-  margin-left: 20%;
-  margin-right: 20%;
-  font-weight: bolder;
-  font-size: 1.875rem;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  flex-wrap: nowrap;
-  -webkit-text-stroke-width: 1px;
-  width: 50%;
-}
-
-.buttonwrapCss {
-  margin-right: 10rem;
-  background-color: none;
-  border: 1px solid black;
-}
-
-.signupButtonCss svg {
-  transform: rotate(180deg);
-  width: 2rem;
-  margin-bottom: 4px;
-}
-
-.signupButtonCss {
-  align-items: center;
-  border: none;
-  border-radius: 0;
-  cursor: pointer;
-  display: flex;
-  padding: 7px 10px;
-  position: relative;
-  width: auto;
-  justify-content: flex-start;
-  transform: translate(-3px, -3px);
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
-}
-
-.freeCss {
-  background-color: black;
-  border-color: black;
-  color: white;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  line-height: 20px;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.freeCss:hover {
-  transform: translate(0px, 0px);
-  /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
-  opacity: 0.1px;
-}
-
-.freeCss:hover {
-  color: #767677;
-}
-
-.buttonContentCss {
-  flex: 1 1 auto;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.buttonContentCss .material-symbols-sharp {
-  font-size: 15rem;
-}
-
-.afterblacknav {
-  background-color: black;
-  font-size: 0.938rem;
-  display: flex;
-  color: white;
-  justify-content: space-around;
-}
-
-.afterblacknav ul {
-  list-style: none;
-}
-
-.afterblacknav li {
-  padding: 0.625rem 0.938rem;
-
-}
-
-.afterblacknav a {
-  text-decoration: none;
-  color: white;
-}
-
-.afterblacknav a:hover {
-  text-decoration: underline;
-}
-
-.footerlist {
-  /* width:65%; */
-  margin: auto;
-  padding-bottom: 1.25rem;
-  display: flex;
-  justify-content: center;
-}
-
-.footerlist h5 {
-  font-size: 1.25rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  line-height: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.footerlist li {
-  list-style: none;
-  font-size: 0.875rem;
-  margin-bottom: 0.625rem;
-  cursor: pointer;
-}
-
-.adi-list-product {
-  padding: 1.25rem;
-}
-
-.adi-list-sports {
-  padding: 1.25rem;
-}
-
-.adi-list-collections {
-  padding: 1.25rem;
-}
-
-.adi-list-support {
-  padding: 1.25rem;
-}
-
-.adi-list-company-info {
-  padding: 1.25rem;
-}
-
-.adi-list-follow-us {
-  padding: 1.25rem;
-}
-
-.grayfooter {
-  background-color: #282c31;
-  /* width:100%; */
-  padding: 1rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.topcontent {
-  color: #D3D7DA;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
-  font-weight: 500;
-}
-
-.bottomcontent {
-  color: #D3D7DA;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 500;
-}
-
-@media screen and (min-width: 290px) and (max-width: 959px) {
-  .footerX .containerwomen {
-    flex-direction: column;
-  }
-
-  .footerX .left-half,
-  .footerX .right-half {
-    width: 100%;
-  }
-
-  .yellow {
-    flex-direction: column !important;
-  }
-
-  .footerCaption {
-    margin: auto; 
-    text-align: center;
-    font-size: 1rem !important;
-  }
-
-  .buttonwrapCss {
-    /* border: 0.04rem; */
-    /* position: absolute; */
-    margin-right: 0rem;
-  }
-
-  .footerlist {
-    display: none;
-  }
-}
-
-@media screen and (min-width:960px) {
-  .blackNavbefore {
-    display: none;
-  }
-
-  .afterblacknav {
-    display: none;
-  }
-
-  .yellow .footerCaption {
-    display: inline-block;
-  }
-}
+} */
