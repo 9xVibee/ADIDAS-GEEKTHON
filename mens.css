@@ -21,6 +21,10 @@ body {
     margin-bottom: 1rem;
 }
 
+#a1 .home-mens {
+    margin-left: -1rem;
+}
+
 #a1 .material-symbols-sharp {
     margin-right: 0%;
 }
@@ -79,12 +83,11 @@ body {
 }
 
 .paraN p {
-    height: 66px;
+    /* height: 66px; */
     width: 80%;
     font-size: 16px;
     text-align: left;
     line-height: 26px;
-
 }
 
 .filter {
@@ -178,7 +181,6 @@ hr {
     transition: all 0.3s;
     padding: 4px 10px;
 }
-
 
 .card:hover .paragraph {
     bottom: 20%;
