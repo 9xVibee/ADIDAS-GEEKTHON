@@ -72,6 +72,7 @@ body {
 }
 
 .headerN .sideheadN h1 {
+    margin-left: -0.2rem !important;
     font-style: italic;
     font-size: 30px;
     transform: scaleY(1.1);
