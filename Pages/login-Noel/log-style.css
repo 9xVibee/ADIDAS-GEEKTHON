@@ -7,17 +7,30 @@
 }
 
 .navbar {
-    height: 7.7rem !important;
+    height: 8rem !important;
+}
+
+.bar-2 {
+    margin-top: 1px !important;
+}
+
+.header-menu-section ul li .menu-bar {
+    padding: 1.1rem 5px !important;
 }
 
 .login {
-    margin-top: 10rem !important;
+    margin-top: 12rem !important;
     display: flex;
     flex-direction: row;
-    margin: 10px;
-    padding: 10px;
-    width: 85%;
+    width: 80%;
     margin: auto;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.left-part {
+    width: 45%;
+    /* border: 1px solid red; */
 }
 
 .join-club {
@@ -25,6 +38,8 @@
     font-size: 2.5rem;
     transform: scaleX(1.1);
     line-height: 1;
+    -webkit-text-stroke-width: 0.5px;
+    margin-left: -0.5rem;
 }
 
 .discription {
@@ -49,6 +64,7 @@
 
 .tick {
     margin-top: 0.6rem;
+    margin-right: 0.5rem;
     justify-content: center;
     text-align: start;
 }
@@ -63,6 +79,11 @@
     color: #2d2d2d !important;
 }
 
+.left-part-last-p {
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+}
+
 
 .right-part {
     margin: 20px;
@@ -73,72 +94,89 @@
 
 h1 {
     margin-top: 2rem;
+    font-weight: bolder;
+    /* font-size: 2.5rem; */
+    transform: scaleX(1.1);
+    margin-left: 1.6rem;
+    font-size: 1.9rem;
+    line-height: 1;
+    -webkit-text-stroke-width: 0.5px;
 }
 
 .free-shipping {
-    margin-top: 10px;
-    font-size: 250x;
+    margin-top: 1rem;
+    font-size: 0.9rem;
     opacity: 0.8;
+    width: 100%;
 }
 
 .login-signup {
     margin-top: 20px;
 }
 
+.login-signup h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
 .icons {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-left: 2px;
+    justify-content: flex-start;
+    gap: 0.5rem;
     height: 70px;
     width: 240px;
-    padding: 10px;
-
 }
 
 .apple-icon {
     border: 1px solid black;
-    height: 55px;
-    width: 60px;
-    padding: px;
-    margin-left: -20px;
+    height: 3rem;
+    width: 3.2rem;
+    cursor: pointer
 }
 
 .apple {
-    height: 35px;
-    margin-top: 7px;
+    width: 1.5rem;
+    margin-top: 0.6rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
 }
 
 .fb-icon {
     border: 1px solid black;
-    height: 55px;
-    width: 60px;
+    height: 3rem;
+    width: 3.2rem;
     padding: px;
+    cursor: pointer
+        /* margin-left: 20px; */
 }
 
 .fb {
-    height: 35px;
-    margin-top: 7px;
+    width: 1.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0.6rem;
 }
 
 .g-icon {
     border: 1px solid black;
-    height: 55px;
-    width: 60px;
+    height: 3rem;
+    width: 3.2rem;
     padding: px;
+    cursor: pointer
+        /* margin-left: 20px; */
 }
 
 .g {
-    height: 35px;
-    margin-top: 7px;
+    margin-left: 0.8rem;
+    width: 1.5rem;
+    margin-top: 0.6rem;
 }
 
 #email {
-    height: 45px;
-    width: 500px;
-    margin-top: 7px;
-    font-size: 20px;
-    color: black;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: -7px;
+    font-size: 1rem;
+    /* color: black; */
 
 }
 

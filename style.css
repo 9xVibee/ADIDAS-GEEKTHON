@@ -451,8 +451,9 @@ body {
     font-size: 0.9rem;
     transform: scaleY(1.1);
     letter-spacing: 0.5px;
+    margin-top: -10px;
     margin-left: -10px;
-    border: 1px solid red;
+    margin-bottom: -10px !important;
 }
 
 .column p {
