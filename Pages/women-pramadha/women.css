@@ -120,17 +120,22 @@
 
 
 }
-
-@media screen and (min-width: 290px) and (max-width: 600px) {
+@media screen and (min-width: 290px) and (max-width: 600px){
     .footerX {
         justify-content: left;
         text-align: left;
+        margin-left:10%; 
+    }
+    .footerX .containerwomen p {
+        justify-content: center;
+        text-align: left !important;
         gap: 10px;
-        margin: 0%;
-
+        margin:0%;
+        
         /* padding-block:20px;
         padding-inline:15px; */
     }
+
 }
 
 
