@@ -763,7 +763,7 @@ body {
 }
 
 .sidebar-red {
-    color: #E32B2B;
+    color: #E32B2B !important;
 }
 
 .last-sidebar {
