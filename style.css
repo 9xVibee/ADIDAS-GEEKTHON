@@ -857,7 +857,7 @@ body {
 
 @media screen and (max-width:1060px) {
     .home-buttons-container {
-        bottom: 2% !important;
+        bottom: -60% !important;
         left: 10% !important;
     }
 }
@@ -865,14 +865,12 @@ body {
 /* Hiding Middle Menu seciton */
 @media screen and (max-width:400px) {
     .home-img-container {
-        transform: translateY(-10%);
-        height: 100vh !important;
+        transform: translateY(-30%);
+        height: 50vh !important;
         width: 100% !important;
         background-size: cover !important;
-    }
-
-    .home-buttons-container {
-        bottom: -5% !important;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .button-container {
