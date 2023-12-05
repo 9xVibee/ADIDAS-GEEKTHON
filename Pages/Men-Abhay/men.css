@@ -87,3 +87,51 @@
     left: 10%;
     top: 45%;
 }
+
+@media screen and (max-width:1062px) {
+    .men-home-p {
+        left: 10%;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .home-buttons-container {
+        bottom: -60% !important;
+    }
+
+    .men-home-p {
+        top: 122% !important;
+    }
+
+    .winter-men-p {
+        top: 80% !important;
+    }
+}
+
+.hot {
+    margin-left: 10% !important;
+}
+
+.carosul-2 {
+    margin-top: 3.5rem !important;
+}
+
+@media screen and (max-width:1442px) {
+    .carosul-2 {
+        margin-top: 0 !important;
+        margin-left: 4rem !important;
+    }
+
+
+}
+
+@media screen and (max-width:430px) {
+    .carosul-2 {
+        margin-left: 0 !important;
+    }
+
+    .hot {
+        margin-left: 0% !important;
+    }
+}

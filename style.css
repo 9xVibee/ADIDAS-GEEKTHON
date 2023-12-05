@@ -744,6 +744,14 @@ body {
     color: black;
 }
 
+.heading-icon-grp a {
+    font-size: 1.1rem !important;
+    color: black;
+    transform: scale(1.1);
+    margin-left: -0.5rem !important;
+    margin-bottom: -0.4rem !important;
+}
+
 .bold-sidebar {
     font-weight: bold;
     transform: scale(1.1);
