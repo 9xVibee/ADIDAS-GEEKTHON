@@ -1,3 +1,7 @@
+* {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+}
+
 .product-container-2 {
     width: 100%;
     margin: auto !important;
@@ -122,8 +126,6 @@
         margin-top: 0 !important;
         margin-left: 4rem !important;
     }
-
-
 }
 
 @media screen and (max-width:430px) {
@@ -134,4 +136,45 @@
     .hot {
         margin-left: 0% !important;
     }
+}
+
+/* Footer X */
+.footerX .containerwomen {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.containerwomen h2 {
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerwomen p {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    width: 60%;
+    letter-spacing: 0.5px;
+    color: black !important;
+}
+
+@media screen and (min-width: 290px) and (max-width: 600px) {
+    .footerX {
+        justify-content: left;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .footerX .containerwomen p {
+        justify-content: center;
+        text-align: left !important;
+        gap: 10px;
+        margin: 0%;
+    }
+
 }
