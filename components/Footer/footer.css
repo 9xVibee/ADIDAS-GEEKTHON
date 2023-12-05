@@ -76,50 +76,60 @@ body {
     font-family:Arial, Helvetica, sans-serif;/*Adieue*/
     flex-wrap: nowrap;
   }
-  .buttonwrap{
+  .buttonwrapCss {
     background-color: none;
-    border:0.04rem solid black;
-    
-   
-  } 
-    .signupButton{
-   align-items: center;
-   border: none;
-   border-radius: 0;
-   cursor: pointer;
-    display: inline-flex;
-    padding:0.938rem 1.875rem;
-    position:relative;
-    white-space: nowrap;
-    width:auto;
+    border: 1px solid black;
+}
+
+.signupButtonCss svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.signupButtonCss {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    width: auto;
     justify-content: flex-start;
-    text-align: left;
-    transform:translate(-0.188rem,-0.188rem);
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
 }
-.free{
-  background-color: black;
-  border-color: black;
-  color:white;
-  font-size:0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.063rem;
-  line-height: 1.25rem;
-  text-decoration: none; 
+
+.freeCss {
+    background-color:black;
+    border-color:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
 }
- 
 
-  .free:hover{
-     /* transform:translate(0px,0px); */
-     color:#4f4f4f;
-     /* transition:0.5s; */
+.freeCss:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
 
-  }
-  .buttonContent{
+.freeCss:hover {
+    color: #767677;
+}
+  .buttonContentCss{
     flex:1 1 auto;
     overflow: hidden;
     text-overflow: ellipsis;
   } 
-  .buttonContent .material-symbols-sharp{
+  .buttonContentCss .material-symbols-sharp{
     font-size:15rem;
   }
   .afterblacknav{
@@ -155,6 +165,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 .footerlist li{
     list-style: none;
@@ -216,7 +227,7 @@ body {
       margin:auto;
       text-align: center;
     }
-     .buttonwrap{
+     .buttonwrapCss{
       border:0.04rem;
       position:absolute;
     } 

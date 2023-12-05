@@ -1,0 +1,125 @@
+.product-container-2 {
+    width: 100%;
+    margin: auto !important;
+}
+
+.pre-btn-2,
+.nxt-btn-2 {
+    display: none;
+}
+
+.carosul-2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button Css*/
+.buttonwrap {
+    background-color: none;
+    border: 1px solid white;
+}
+
+.signupButton svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.signupButton {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.free {
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.free:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
+
+.free:hover {
+    color: #767677;
+}
+
+/* Button css ended */
+
+/* Handling button position */
+.navbar {
+    position: fixed;
+}
+
+.home-buttons-container {
+    bottom: 40%;
+}
+
+.men-home-p {
+    position: absolute;
+    z-index: 9999;
+    top: 42%;
+    left: -10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.winter-men-p {
+    left: 10%;
+    top: 45%;
+}
+.footerX .containerwomen{
+   
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;;
+    /* padding:60px; */
+}
+.containerwomen h2{
+    margin:10px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+.containerwomen p{
+    
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    width:60%;
+    
+    
+}
+@media screen and (min-width: 290px) and (max-width: 600px){
+    .footerX {
+        justify-content: left;
+        text-align: left;
+        gap: 10px;
+        margin:0%;
+        
+        /* padding-block:20px;
+        padding-inline:15px; */
+    }
+}
+    
