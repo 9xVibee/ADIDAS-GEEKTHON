@@ -37,6 +37,10 @@
     font-size: 15px;
 }
 
+.heart{
+    color:black !important;
+}
+
 .bar-2 {
     width: 100%;
     display: flex;
