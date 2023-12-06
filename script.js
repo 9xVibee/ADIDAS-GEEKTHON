@@ -89,6 +89,18 @@ closebtnSignup.addEventListener("click", function () {
   signupDisplay.classList.add("display");
 });
 
+const profile = document.getElementById("user-profile-nav");
+profile.addEventListener("click", function () {
+  const signupDisplay = document.getElementById("signup-display");
+  signupDisplay.classList.remove("display");
+  console.log("clicked");
+});
+
+closebtnSignup.addEventListener("click", function () {
+  const signupDisplay = document.getElementById("signup-display");
+  signupDisplay.classList.add("display");
+});
+
 // Shery Js
 Shery.makeMagnet(".menu-bar", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",

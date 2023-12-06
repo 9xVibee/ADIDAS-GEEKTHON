@@ -109,3 +109,199 @@
 .card .card28:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b0f77a92ce046fca001aeef00b50468_9366/VICTEEZ_SANDALS_Black_GB2980_02_standard_hover.jpg');
 }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.3rem;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}
