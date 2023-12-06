@@ -111,7 +111,7 @@ Throughout the development of our project, our team encountered various challeng
 
 ## :airplane:<span style="color:#29c4f6">WEBSITE UI
  #### 1. HOME PAGE UI
- ![Screenshot 1](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot1.png)
+ ![Screenshot 1](screenshots_ui/Screenshot1.png)
 ##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 #### 2. NAVBAR
