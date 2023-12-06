@@ -110,79 +110,79 @@ Throughout the development of our project, our team encountered various challeng
 
 ## :airplane:<span style="color:#29c4f6">WEBSITE UI
  #### 1. HOME PAGE UI
- ![Screenshot 1](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot1.png)
+ ![Screenshot 1](./screenshots_ui/Screenshot1.png)
 ##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 #### 2. NAVBAR
- ![Screenshot 2](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot2.png)
+ ![Screenshot 2](./screenshots_ui/Screenshot2.png)
  ##### UI Description:<i> "The navigation section is designed to help users to easily navigate to their required product pages."</i>
 
  #### 3. COLLECTIONS
- ![Screenshot 3](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot3.png)
+ ![Screenshot 3](./screenshots_ui/Screenshot3.png)
  ##### UI Description:<i> "The collections section is designed to help users to find out what collections are present in the website."</i>
 
  #### 4. POPULAR RIGHT NOW
- ![Screenshot 4](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot4.png)
+ ![Screenshot 4](./screenshots_ui/Screenshot4.png)
  ##### UI Description:<i> "The section is designed to help users to easily find out what are the products are going popular."</i>
 
  #### 5. NEW ARRIVALS
- ![Screenshot 5](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot5.png)
+ ![Screenshot 5](./screenshots_ui/Screenshot5.png)
  ##### UI Description:<i> "The new arrivals section is designed to help users to easily know the new collection of te adidas and the best products of adidas."</i>
 
  #### 6. WHAT'S HOT?
- ![Screenshot 6](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot6.png)
+ ![Screenshot 6](./screenshots_ui/Screenshot6.png)
  ##### UI Description:<i> "The What's hot section is designed help users to easily navigate to the pages of particular brand products."</i>
 
  #### 7. NAVBAR PAGES
- ![Screenshot 7](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot7.png)
+ ![Screenshot 7](./screenshots_ui/Screenshot7.png)
  ##### UI Description:<i> "The Navbar pages  is designed help users to easily navigate to the pages related to particular activity products. "</i>
 
  #### 8. WHAT'S HOT LINKED PAGES
- ![Screenshot 8](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot8.png)
+ ![Screenshot 8](./screenshots_ui/Screenshot8.png)
  ##### UI Description:<i> "The whats hot is designed to help users to easily navigate to the pages linked to them."</i>
 
  #### 9. FOOTER
- ![Screenshot 9](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot9.png)
+ ![Screenshot 9](./screenshots_ui/Screenshot9.png)
  ##### UI Description:<i> "The Footer section is designed help users to easily navigate throught the pages linked to each section . The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
  #### 10. POPULAR LINKED 
- ![Screenshot 10](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot10.png)
+ ![Screenshot 10](./screenshots_ui/Screenshot10.png)
  ##### UI Description:<i> "The popular linked section is designed to help users to easily navigate to the pages linked to it and checkout collection."</i>
 
  #### 11. HELP
- ![Screenshot 11](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot11.png)
+ ![Screenshot 11](./screenshots_ui/Screenshot11.png)
  ##### UI Description:<i> "The Help page is designed to help users to connect with adiclub and communicate with them."</i>
 
  #### 12. SIGNUP
- ![Screenshot 12](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot12.png)
+ ![Screenshot 12](./screenshots_ui/Screenshot12.png)
  ##### UI Description:<i> "The signup is designed help users to get signed in with the adidas website and they will be notified whenever any deals are then."</i>
 
  #### 13. RESPONSIVE HOMEPAGE
- ![Screenshot 13](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot13.png)
+ ![Screenshot 13](./screenshots_ui/Screenshot13.png)
  ##### UI Description:<i> "This page hides the content in the navbar and display it as a menu bar."</i>
 
  #### 14. MENU BAR
- ![Screenshot 14](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot14.png)
+ ![Screenshot 14](./screenshots_ui/Screenshot14.png)
  ##### UI Description:<i> "This section contains the content of the navbar and will be displayed in smaller screens."</i>
 
  #### 15.  RESPONSIVE FOOTER
- ![Screenshot 15](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot15.png)
+ ![Screenshot 15](./screenshots_ui/Screenshot15.png)
  ##### UI Description:<i> "This section in the footer will be displayed in smaller screens and they will be hidden in larger screens."</i>
 
 #### 16. BACKPACK
-![Screenshot 16](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot16.png)
+![Screenshot 16](./screenshots_ui/Screenshot16.png)
 ##### <i>Backpack page ui contains the collection of alluring backpacks with their brand name and the price of each bag and  footer part which is responsive for all types of screens.</i>
 
 #### 17. MEN
-![Screenshot 17](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot17.png)
+![Screenshot 17](./screenshots_ui/Screenshot17.png)
 ##### <i>Men page ui contains home page for men and when we click shop button on it will navigate to te pages related to men products.</i>
 
 #### 18. WISLIST
-![Screenshot 18](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot18.png)
+![Screenshot 18](./screenshots_ui/Screenshot18.png)
 ##### <i>Wishlist page contains the images and details of the products which are liked by the users</i>
 
 #### 19. OUTLIST
-![Screenshot 19](https://github.com/9xVibee/ADIDAS-GEEKTHON/blob/main/screenshots_ui/Screenshot19.jpeg)
+![Screenshot 19](./screenshots_ui/Screenshot19.jpeg)
 ##### <i>Outlet page contains all the deals related to the products</i>
 
 
