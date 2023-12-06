@@ -16,6 +16,10 @@
     gap: 0.9rem !important;
 }
 
+.heart{
+    color: black !important;
+}
+
 .header-black-section {
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
     width: 100%;
