@@ -1,3 +1,9 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
 .card .card1:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/46ca7b4539354f53988daf8d00addc10_9366/Tiro_Suit-Up_Advanced_Track_Pants_Black_IB2306_HM5_hover.jpg');
 }

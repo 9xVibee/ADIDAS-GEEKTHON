@@ -1,3 +1,10 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
 .card .card1:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/428c5c9aae834022b82ba65901606571_9366/Gazelle_Shoes_Black_BB2502_02_standard_hover.jpg');
 }

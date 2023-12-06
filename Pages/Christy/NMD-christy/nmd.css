@@ -1,3 +1,10 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
 .card .card1:hover img {
     content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/b9eba5d6b1194b6081a7ae920142d747_9366/NMD_R1_Shoes_Red_GX9886_02_standard_hover.jpg');
 }

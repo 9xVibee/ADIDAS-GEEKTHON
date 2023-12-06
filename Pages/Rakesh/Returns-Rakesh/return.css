@@ -1,3 +1,10 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
 .heading {
     text-align: center;
     justify-content: center;
@@ -118,7 +125,7 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 10px font-family: "AdihausDIN";
+    padding-right: 10px ;
     font-size: large;
     font-weight: bold;
     border-width: 1px

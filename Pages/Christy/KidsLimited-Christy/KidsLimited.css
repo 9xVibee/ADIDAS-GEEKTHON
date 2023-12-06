@@ -1,3 +1,10 @@
+
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
 .card .card1:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d88dfbd1e9f1455485ecaef5010d0b7e_9366/Adicolor_Classics_3-Stripes_Cargo_Pants_Black_HR3364_23_hover_model.jpg');
 }

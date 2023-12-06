@@ -1,3 +1,10 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
 .card .card1:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/acb18717347447e894b9af3c00ec1dbb_9366/Essentials_Linear_Backpack_Blue_HR5343_02_standard.jpg');
 }
