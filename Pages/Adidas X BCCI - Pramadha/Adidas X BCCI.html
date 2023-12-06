@@ -29,6 +29,7 @@
         <i class="fa-solid fa-angle-down"></i>
       </div>
 
+      <!-- Bar 2 -->
       <div class="bar-2">
         <ul>
           <a href="./../login-Noel/log-in.html">
@@ -76,7 +77,7 @@
           <ul>
             <!-- Men -->
             <li class="menu-bold men">
-              <a href="./Pages/Men-Abhay/men.html" class="menu-bar">Men</a>
+              <a href="./../Men-Abhay/men.html" class="menu-bar">Men</a>
               <div class="men-section">
                 <div class="container-upper">
                   <div class="men-left-container">
@@ -186,7 +187,9 @@
             </li>
             <!-- Women -->
             <li class="menu-bold women">
-              <a href="./Pages/Men-Abhay/men.html" class="menu-bar">Women</a>
+              <a href="./../women-pramadha/women.html" class="menu-bar"
+                >Women</a
+              >
               <div class="men-section women-section">
                 <div class="container-upper">
                   <div class="men-left-container">
@@ -294,7 +297,9 @@
             </li>
             <!-- Kids -->
             <li class="menu-bold kids">
-              <a href="./Pages/Men-Abhay/men.html" class="menu-bar">Kids</a>
+              <a href="./../kids-section-Noel/kids.html" class="menu-bar"
+                >Kids</a
+              >
               <div class="men-section kids-section">
                 <div class="container-upper">
                   <div class="men-left-container">
@@ -641,7 +646,7 @@
             </li>
             <!-- Outlet -->
             <li class="menu-bold outlet">
-              <a href="./Pages/Men-Abhay/men.html" class="menu-bar red"
+              <a href="./../Outlet-Abhay/outlet.html" class="menu-bar red"
                 >Outlet</a
               >
               <div class="men-section outlet-section">
@@ -687,32 +692,180 @@
             <input type="text" placeholder="Search" />
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
+
           <!-- Logos -->
           <div class="logo-section-header">
-            <span class="user-header">
+            <span class="user-header" id="user-profile-nav">
               <i class="fa-regular fa-user"></i>
               <span class="count">1</span>
             </span>
+
             <!-- Search icon -->
             <button class="search-btn-sidebar">
               <i class="fa-solid fa-magnifying-glass search-icon-hide"></i>
             </button>
 
-            <i class="fa-regular fa-heart heart"></i>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-10 h-10 cart"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
-              />
-            </svg>
+            <a href="./../wishlist/wishlist.html">
+              <i class="fa-regular fa-heart heart"></i>
+            </a>
+            <span class="cart-parent">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-10 h-10 cart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+
+                <!-- Empty Cart -->
+                <div class="empty-cart">
+                  <h3>your cart is empty</h3>
+                </div>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign up page -->
+    <div class="singup-home display" id="signup-display">
+      <!-- Content -->
+      <div class="signup-container">
+        <!-- Close Button -->
+        <div class="closebtn-container-signup" id="close-btn-signup">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+
+        <!-- Content inside -->
+        <div class="sgright-part">
+          <div class="sgimg-right">
+            <img
+              src="https://account-frontends.adidas.com/account_account-portal/1.0.0-experimental.14/assets/adiclub-blue-desktop.e34c412f9253e8d5.svg"
+              alt="image loading"
+            />
+          </div>
+          <h1>YOUR ADICLUB BENEFITS AWAIT</h1>
+          <p class="sgfree-shipping">
+            Get free shipping, discount vouchers and members only products when
+            you're in adiClub.
+          </p>
+          <div class="sglogin-signup">
+            <h3>Log in or sign up (it's free)</h3>
+            <div class="sgicons">
+              <div class="sgapple-icon sgicon-signup">
+                <img
+                  src="./../login-Noel/images-login/apple.png"
+                  alt="appleicon"
+                  class="apple"
+                />
+              </div>
+              <div class="sgfb-icon sgicon-signup">
+                <img
+                  src="./../login-Noel/images-login/fb.png"
+                  alt="fbicon"
+                  class="fb"
+                />
+              </div>
+              <div class="sgg-icon sgicon-signup">
+                <img
+                  src="./../login-Noel/images-login/g.png"
+                  alt="googleicon"
+                  class="g"
+                />
+              </div>
+            </div>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="   EMAIL ADDRESS *"
+            />
+          </div>
+          <div class="sgterms-condition">
+            <div class="sgcondition">
+              <div class="sgpara-check-container">
+                <div class="csgheck1">
+                  <input type="checkbox" class="sgcheckbox1 cb" name="cc" />
+                </div>
+                <div class="sgcon1">
+                  <p>
+                    I would like to stay up to date with adidas. I agree to
+                    receive personalised marketing messages from adidas India
+                    Marketing Pvt. Ltd.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+              <div class="sgpara-check-container">
+                <div class="sgheck1">
+                  <input type="checkbox" class="sgcheckbox1 cb" name="cc" />
+                </div>
+                <div class="sgsgcon1">
+                  <p>
+                    I would like to stay up to date with adidas. I agree to
+                    receive personalised marketing messages from adidas India
+                    Marketing Pvt. Ltd.
+                  </p>
+                </div>
+              </div>
+              <div class="sgpara-check-container">
+                <div class="sgcheck1">
+                  <input
+                    type="checkbox"
+                    class="sgcheckbox1 cb"
+                    name="ccdiv"
+                    checked
+                  />
+                </div>
+                <div class="sgcon1">
+                  <p>
+                    I would like to stay up to date with adidas. I agree to
+                    receive personalised marketing messages from adidas India
+                    Marketing Pvt. Ltd.
+                  </p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sgbuttonwrap">
+            <button type="button" class="sgsignupButton free">
+              <span class="sgbuttonContent">SHOP MEN</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
