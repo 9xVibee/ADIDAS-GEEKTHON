@@ -145,6 +145,10 @@ hr {
 }
 
 @media screen and (max-width:1441px) {
+    .card-container {
+        margin-left: 8% !important;
+    }
+
     .card {
         width: 15rem !important;
         height: 20rem !important;
@@ -161,7 +165,7 @@ hr {
     }
 
     .card-container {
-        margin: auto !important;
+        margin-left: 8% !important;
     }
 
     .paragraph {
@@ -172,7 +176,7 @@ hr {
 @media screen and (max-width:1040px) {
     .card-container {
         width: 100vw !important;
-        margin-left: -12% !important;
+        margin-left: -8% !important;
     }
 
     .card {
@@ -187,7 +191,7 @@ hr {
 
 @media screen and (max-width:899px) {
     .card-container {
-        padding-left: 8%;
+        margin-left: -8% !important;
     }
 
     .card {
@@ -256,6 +260,7 @@ hr {
     .card-container {
         margin-left: 0.2rem !important;
     }
+
     .card {
         width: 19rem !important;
         height: 22rem !important;
@@ -274,6 +279,7 @@ hr {
     .card-container {
         margin-left: -2.2rem !important;
     }
+
     .card {
         width: 18rem !important;
         height: 20rem !important;
@@ -285,6 +291,10 @@ hr {
 
     .filter {
         margin-left: 50% !important;
+    }
+
+    .running {
+        display: none;
     }
 }
 
