@@ -91,6 +91,7 @@ body {
 }
 
 .filter {
+    display: none;
     margin-left: 80%;
     box-sizing: border-box;
     text-shadow: #767677;
