@@ -1,4 +1,3 @@
-
 .navbar {
     display: flex;
     flex-direction: column;
@@ -11,6 +10,10 @@
     background-color: white;
     height: 8rem;
     z-index: 99999;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
 }
 
 .header-black-section {

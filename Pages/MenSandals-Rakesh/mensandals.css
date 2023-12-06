@@ -110,6 +110,10 @@
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b0f77a92ce046fca001aeef00b50468_9366/VICTEEZ_SANDALS_Black_GB2980_02_standard_hover.jpg');
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;

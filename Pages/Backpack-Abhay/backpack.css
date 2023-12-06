@@ -294,6 +294,10 @@
     display: flex;
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .count {
     padding: 4px 8px;
     background-color: #FFD619;

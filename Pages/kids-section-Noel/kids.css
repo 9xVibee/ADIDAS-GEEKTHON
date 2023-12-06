@@ -1,5 +1,3 @@
-
-
 .product-container-2 {
     width: 100%;
     margin: auto !important;
@@ -8,6 +6,10 @@
 .pre-btn-2,
 .nxt-btn-2 {
     display: none;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
 }
 
 .carosul-2 {
@@ -93,142 +95,147 @@
 
 /* # no background Image  */
 /* winter-Essential  */
-.winter-essential{
-background-image: none;
+.winter-essential {
+    background-image: none;
 }
+
 /* END winter-Essential */
 
 /* new top home image  */
-.home{
+.home {
     background-color: white;
     background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/em_in_world_cup_cricket_fw23_launch_glp_k_mh_d_7c93173ec3.jpg');
     background-size: 100rem 45rem;
     background-repeat: no-repeat;
-    
+
 }
 
-.home-img-container{
+.home-img-container {
     background-image: none;
     margin-top: 7rem;
 }
 
-.jersey-available-tag{
+.jersey-available-tag {
     opacity: 0.9;
     color: white;
 }
 
-.home-buttons-container{
+.home-buttons-container {
     margin-bottom: -1.5rem;
 }
 
 /* END new top home image */
 
 /* STATEMENT */
-.statement{
-   
+.statement {
+
     height: 20rem;
 }
 
-.statement-title{
+.statement-title {
     font-size: larger;
     text-align: center;
     margin: 2rem;
     margin-left: 20rem;
-    width:55%;
+    width: 55%;
 }
 
-.statement-summary{
+.statement-summary {
     opacity: 0.8;
     text-align: center;
     /* margin: 2rem; */
     /* margin-bottom: 1rem; */
     margin-left: 20rem;
-    width:55%;
-    height:30%;
+    width: 55%;
+    height: 30%;
     line-height: 1.7rem;
     font-size: 1.2rem;
 }
+
 /* STATEMENT END  */
 
 /* DATA  */
-.data{
-   
+.data {
+
     display: flex;
-   justify-content: center;
+    justify-content: center;
     margin-top: 1rem;
     height: 18rem;
 }
-.left-cloth{
-    display:flex;
-    
+
+.left-cloth {
+    display: flex;
+
 }
-.right-section{
+
+.right-section {
     display: flex;
 }
+
 .girls-clothing-section,
 .boys-clothing-section,
 .girls-shoe-section,
-.boys-shoe-section
-{
+.boys-shoe-section {
     margin: 2rem;
     line-height: 2.5rem;
 }
 
-.data-heading{
-    
+.data-heading {
+
     text-align: center;
     margin-top: 1rem;
 }
 
-.menu{
+.menu {
     text-align: center;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-@media (max-width: 768px){
-    .home{
+@media (max-width: 768px) {
+    .home {
         background-size: 48rem 25rem;
         margin-top: 5rem;
         background-color: rgb(10, 10, 103);
-        height:27%;
+        height: 27%;
     }
 
-    .men-home-p{
+    .men-home-p {
         margin-left: 10rem;
         margin-top: -10rem;
     }
 
-    .home-buttons-container{
+    .home-buttons-container {
         margin-bottom: 20rem;
     }
 
-    .statement{
+    .statement {
         justify-content: center;
         text-align: center;
-        
-        height:20%;
-        width:100%;
+
+        height: 20%;
+        width: 100%;
         font-size: 1.5rem;
     }
 
-    .statement-summary{
+    .statement-summary {
         margin-left: 2rem;
         width: 43rem;
         height: 15rem;
     }
 
-    .statement-title{
+    .statement-title {
         margin-left: 3rem;
         width: 40rem;
     }
 
-    .data{
-        display:none;
+    .data {
+        display: none;
     }
-        /* font-weight: 900;
+
+    /* font-weight: 900;
         justify-content: center;
         margin: auto;
         text-align: center;
@@ -252,61 +259,58 @@ ul{
     } */
     /* .girls-shoe-section{
         /* padding-left: 5%; */
-        /* text-align: center;
+    /* text-align: center;
         margin-right: 10%;
         margin-left: 50;
     }
     .boys-shoe-section{
         text-align:center;
         margin-left: 10%;
-    } */ 
-    #girls{
+    } */
+    #girls {}
 
-    }
-
-    .menu{
-        display:none;
+    .menu {
+        display: none;
     }
 }
 
-@media (max-width: 480px){
-    .home{
+@media (max-width: 480px) {
+    .home {
         background-size: 25rem 35rem;
         background-color: rgb(10, 10, 103);
     }
 
-    .men-home-p{
+    .men-home-p {
         margin-left: 5rem;
         margin-top: 15rem;
     }
 
-    .home-buttons-container{
+    .home-buttons-container {
         margin-bottom: 9rem;
         font-size: large;
     }
 
-    .statement{
+    .statement {
         justify-content: center;
         text-align: left;
-        height:30%;
-        width:100%;
+        height: 30%;
+        width: 100%;
         font-size: 1.5rem;
     }
 
-    .statement-summary{
+    .statement-summary {
         margin-left: 0px;
         width: 24rem;
-        height:20rem;
+        height: 20rem;
         text-align: left;
     }
 
-    .statement-title{
+    .statement-title {
         text-align: left;
         margin-left: 3px;
         width: 24rem;
-        font-size:18px ;
+        font-size: 18px;
     }
 }
 
 /* DATA END */
-

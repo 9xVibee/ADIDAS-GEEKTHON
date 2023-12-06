@@ -1,4 +1,3 @@
-
 .navbar {
     display: flex;
     flex-direction: column;
@@ -243,22 +242,28 @@
 .card .card12:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/294a1509b50344a2862603449c593667_9366/Banktop_Hoodie_Blue_IN6755_23_hover_model.jpg');
 }
-.middletext h1{
+
+.middletext h1 {
     margin-top: 3rem !important;
     margin: auto;
     font-size: 30px;
     font-weight: 700;
     justify-content: center;
     text-align: center;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
-.middletext .y{
+
+.middletext .y {
     margin: auto;
     justify-content: center;
     text-align: center;
     font-size: 18px;
     width: 57%;
     margin-bottom: 4rem !important;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
 }
 
 .card .card13:hover img {
@@ -276,4 +281,3 @@
 .card .card16:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/459976c511e740bc8902bf639899ab9a_9366/Graphic_T-Shirt_White_IN6761_23_hover_model.jpg');
 }
-

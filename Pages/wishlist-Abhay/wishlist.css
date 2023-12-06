@@ -448,6 +448,10 @@ body {
     }
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 @media screen and (min-width:960px) {
     .blackNavbefore {
         display: none;

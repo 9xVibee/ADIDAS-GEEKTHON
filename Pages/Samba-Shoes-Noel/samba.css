@@ -12,6 +12,10 @@
     z-index: 99999;
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .header-black-section {
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
     width: 100%;

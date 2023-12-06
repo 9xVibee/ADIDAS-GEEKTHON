@@ -12,6 +12,10 @@
     z-index: 99999;
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .header-black-section {
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
     width: 100%;
@@ -232,7 +236,7 @@
 
 .card .card10:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e0a9ba721094f339bf8ad6d00d05dcb_9366/Fast_Graphic_Tank_Top_Grey_GT9762_HM1_hover.jpg');
-}  
+}
 
 .card .card11:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8185bd314c4f48e38ec9ae32009951fa_9366/ADI_ZOOM_SHOES_Black_GA0868_02_standard_hover.jpg');

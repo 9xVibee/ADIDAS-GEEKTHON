@@ -12,6 +12,10 @@
     margin: auto !important;
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .pre-btn-2,
 .nxt-btn-2 {
     display: none;

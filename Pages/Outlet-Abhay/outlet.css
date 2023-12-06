@@ -108,6 +108,10 @@
     color: black;
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .header-menu-section ul li .menu-bar:hover {
     z-index: 20;
     border-bottom: 3px solid black;
