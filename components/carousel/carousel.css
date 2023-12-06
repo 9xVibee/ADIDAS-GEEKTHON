@@ -422,14 +422,14 @@ a {
 @media (max-width: 480px) {
 
     /* ----button---- */
-    .btn-container {
-        /* margin-left: 40px; */
-    }
+    /* .btn-container {
+         margin-left: 40px; 
+    } */
 
     /* ------carousel------  */
-    .carosul-1 {
-        /* margin-top: -180px; */
-    }
+     /*.carosul-1 {
+        margin-top: -180px; 
+    }*/
 
     /* -----WHAT'S HOT---- */
     .hot {
@@ -438,9 +438,9 @@ a {
     }
 
     /* ------carousel-2------  */
-    .carosul-2 {
-        /* margin-top: -90px; */
-    }
+      /* .carosul-2 {
+      margin-top: -90px;
+    } */
 }
 
 @media screen and (max-width:1440px) {
