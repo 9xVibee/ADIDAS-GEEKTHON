@@ -864,6 +864,12 @@ body {
 
 
 /* Home media */
+@media screen and (max-width:660px) {
+    .home-buttons-container-1 {
+        bottom: 3% !important;
+    }
+}
+
 @media screen and (min-width:1060px) {
     .home-img-container {
         width: 70% !important;
@@ -871,6 +877,10 @@ body {
 }
 
 @media screen and (max-width:1060px) {
+    .home-buttons-container-1 {
+        left: 10% !important;
+    }
+
     .home-buttons-container {
         bottom: 5% !important;
         left: 10% !important;
@@ -941,7 +951,7 @@ body {
     width: 80%;
     position: absolute;
     bottom: 10%;
-    left: 4%;
+    left: -5%;
     display: flex;
     align-items: flex-end;
     gap: 10px;
