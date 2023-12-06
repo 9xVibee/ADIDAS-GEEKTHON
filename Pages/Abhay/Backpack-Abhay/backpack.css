@@ -137,6 +137,10 @@
     text-transform: uppercase;
 }
 
+.heart {
+    color: black !important;
+}
+
 .header-black-section span {
     font-size: 9px;
     font-weight: 600;
