@@ -483,11 +483,8 @@ body {
 }
 
 .hot {
-    margin-left: 10% !important;
-}
-
-.carosul-2 {
-    margin-top: 3.5rem !important;
+    margin-left: 11.5% !important;
+    margin-bottom: -1rem !important;
 }
 
 @media screen and (max-width:1442px) {
@@ -497,12 +494,12 @@ body {
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:840px) {
     .carosul-2 {
         margin-left: 0 !important;
     }
 
     .hot {
-        margin-left: 0% !important;
+        margin-left: 5% !important;
     }
 }

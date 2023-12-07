@@ -158,7 +158,6 @@ body {
         display: block !important;
     }
 
-
     .search-icon-hide {
         display: block !important;
     }
@@ -191,13 +190,6 @@ body {
     align-items: center;
     gap: 1rem;
 }
-
-/* 
-.left-hidden-section .hide-heart,
-.search-icon-hide {
-    font-size: 1.2rem;
-    display: none !important;
-} */
 
 .navbar {
     display: flex;
@@ -1979,4 +1971,10 @@ h1 {
 
 .heart {
     color: black !important;
+}
+
+@media screen and (max-width:960px) {
+    .home {
+        margin-top: 4rem !important;
+    }
 }
