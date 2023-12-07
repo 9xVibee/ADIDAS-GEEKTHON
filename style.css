@@ -317,7 +317,6 @@ body {
     z-index: 99;
     text-decoration: none;
     color: black;
-    /* font-weight: bold; */
 }
 
 .header-menu-section ul li .menu-bar:hover {
