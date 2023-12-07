@@ -1,5 +1,5 @@
+// up Arrow
 let lastScrollY = 0;
-
 window.addEventListener("scroll", function () {
   const navbar = this.document.querySelector(".navbar");
   const uparrow = this.document.getElementById("uparrow");
@@ -100,3 +100,29 @@ closebtnSignup.addEventListener("click", function () {
   const signupDisplay = document.getElementById("signup-display");
   signupDisplay.classList.add("display");
 });
+
+// stripes
+const crossStrips = document.querySelector(".stripes-close");
+crossStrips.addEventListener("click", function () {
+  const stripes = document.querySelector(".stripes");
+  stripes.classList.add("stripe-dis");
+});
+
+// Black section heading change
+let i = 0;
+let data = [
+  "sign up & get 15% off",
+  "free delivery, free returns",
+  "upi and net banking availabel",
+];
+const heading = document.querySelector(".black-header-data");
+heading.textContent = data[0];
+
+setInterval(() => {
+  heading.textContent = data[i++];
+  gsap.from(".black-header-data", {
+    opacity: 0,
+    duration: 0.3,
+  });
+  if (i === 3) i = 0;
+}, 1500);

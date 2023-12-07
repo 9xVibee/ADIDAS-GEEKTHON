@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+
+    &::-webkit-scrollbar {
+        /* width: 10px; */
+        /* background-color: #F1F1F1; */
+        /* cursor: pointer; */
+        display: block;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #A8A8A8;
+        /* border-radius: 5px; */
+    }
 }
 
 html,
@@ -12,11 +25,66 @@ body {
     padding: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
 }
+
+/* Feedback */
+.feedback {
+    position: fixed;
+    top: 50%;
+    right: -3.8% !important;
+    transform: rotate(-90deg);
+    z-index: 999999999;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 2.7rem;
+    background-color: #ECEFF1;
+    cursor: pointer;
+}
+
+.feedback p {
+    font-weight: bold;
+    /* transform: scaleX(1.1); */
+    transform: scaleY(0.8);
+    -webkit-text-stroke-width: 1px;
+    color: #696969;
+    font-size: 1.2rem;
+    filter: blur(0.5px);
+}
+
+/* Stripes */
+.stripes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;
+    position: relative;
+    height: 3.5rem;
+    background-color: #ECEFF1;
+    margin-bottom: -6rem;
+}
+
+.stripe-dis {
+    display: none !important;
+}
+
+.stripes svg {
+    width: 1.5rem;
+    position: absolute;
+    right: 1%;
+    bottom: 25%;
+    cursor: pointer;
+}
+
+.stripes p {
+    text-align: center;
+    width: 75%;
+}
+
+/* Stripes end*/
 
 .product-type-2 {
     text-transform: uppercase;
@@ -72,6 +140,7 @@ body {
     .carosul-2 {
         margin-left: -1rem !important;
     }
+
     .hot {
         margin-left: 1rem !important;
     }
@@ -238,7 +307,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding: 10px 50px;
+    padding: 8px 50px;
 }
 
 .bar-2 ul {
@@ -1978,6 +2047,11 @@ h1 {
 
 @media screen and (max-width:960px) {
     .home {
-        margin-top: 4rem !important;
+        margin-top: 1.4rem !important;
+    }
+
+    .stripes {
+        margin-top: 5.2rem !important;
+        margin-bottom: -1.3rem !important;
     }
 }
