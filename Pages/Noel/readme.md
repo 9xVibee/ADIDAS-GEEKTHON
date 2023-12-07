@@ -38,7 +38,11 @@ All the pages above is created using HTML, CSS and Javascript technologies.
 - Clearly defined user requirements at the beginning led to a more focused development process;
 ### 2. Agile Development
 - Embracing an agile development approach allowed for flexibility in adapting to changing project needs.
+<<<<<<< HEAD
 ### 3. Collaboration and Communication
+=======
+### 3. Collaboration and Comminacation
+>>>>>>> ff25a14d1f9284d448944b3069517c97febfa3b7
 - Effective comminication within the tean and regular collaboration meetings improved overall project coordination.
 ### 4. Technology
 - Experimenting with HTML, CSS & Javascript provided valuable insights into its benefits and limitations.
@@ -47,7 +51,11 @@ All the pages above is created using HTML, CSS and Javascript technologies.
 
 
 # CONCLUSION
+<<<<<<< HEAD
 All the pages above are responsive for all devices and each page is linked to the home page of the website.
 
 
 
+=======
+All the pages above are responsive for all devices and each page is linked to the home page of the website.
+>>>>>>> ff25a14d1f9284d448944b3069517c97febfa3b7
