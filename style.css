@@ -31,7 +31,7 @@ body {
 .feedback {
     position: fixed;
     top: 50%;
-    right: -3.8% !important;
+    right: -3.2rem !important;
     transform: rotate(-90deg);
     z-index: 999999999;
     /* border: 1px solid red; */
