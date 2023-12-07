@@ -212,6 +212,7 @@ ul {
     .men-home-p {
         margin-left: 10rem;
         /* margin-top: -10rem; */
+        display:none;
     }
 
     .home-buttons-container {
@@ -249,21 +250,25 @@ ul {
     }
 }
 
+
+
 @media (max-width: 480px) {
     .home {
         margin-top: 6rem!important;
-        background-size: 23.5rem 15rem;
+        background-size: 26.5rem 15rem;
         background-color: rgb(10, 10, 103);
         height:15rem !important;
+        
     }
 
     .men-home-p {
         margin-left: 5rem;
         margin-top: 15rem;
+        display: none;
     }
 
     .home-buttons-container {
-        margin-top: -3rem;
+        margin-top: 4rem !important;
         position:relative;
     }
 
@@ -290,6 +295,13 @@ ul {
         margin-left: 3px;
         width: 24rem;
         font-size: 18px;
+    }
+}
+
+@media (max-width: 375px){
+    .home-buttons-container {
+        margin-top: -2rem !important;
+        position:relative;
     }
 }
 
