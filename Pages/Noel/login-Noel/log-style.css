@@ -748,3 +748,23 @@ body {
     }
 
 }
+
+@media screen and (max-width:1024px) and (min-width: 960px) {
+    .footer{
+        margin-top:5rem !important;
+    }
+
+    .buttonwrap{
+        margin-top: 13rem !important;
+    }
+
+    .right-part{
+        margin-left:1rem;
+    }
+
+    .buttonwrapCss{
+        width: 20rem;
+    }
+}
+
+
