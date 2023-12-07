@@ -986,7 +986,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    /* margin-top: 7%; */
+    margin-top: 6rem !important;
 }
 
 .home-img-container {
@@ -1035,7 +1035,7 @@ body {
     align-items: center;
     gap: 10px;
     transition: all 0.3s;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 
