@@ -1,16 +1,13 @@
 # ADIDAS.Co.in :running:
-## Backpack
-![Screenshot 16](screenshots_ui/Screenshot16.png)
-##### <i>Backpack page ui contains the collection of alluring backpacks with their brand name and the price of each bag and  footer part which is responsive for all types of screens.</i>
+## Returns
+![image](https://github.com/9xVibee/ADIDAS-GEEKTHON/assets/152276284/a2534463-4255-4688-92f8-9440f2d59d2f)
+##### <i>Returns page contains all the data related to the excahnge of the goods and the refunds of the   </i>
 
 ## Men
-![Screenshot 17](screenshots_ui/Screenshot17.png)
-##### <i>Men page ui contains home page for men and when we click shop button on it will navigate to te pages related to men products.</i>
+![image](https://github.com/9xVibee/ADIDAS-GEEKTHON/assets/152276284/1543b9a8-13e5-492a-838a-8d734197e4f7)
+##### <i>Mens Sandals page contains all the sandals as well as the Slippers too</i>
 
-## Wislist
-![Screenshot 18](screenshots_ui/Screenshot18.png)
-##### <i>Wishlist page contains the images and details of the products which are liked by the users</i>
+## Women
+!![image](https://github.com/9xVibee/ADIDAS-GEEKTHON/assets/152276284/92e0d571-9665-4bfa-9605-a67c9c61bc62)
 
-## Outlet
-![Screenshot 19](screenshots_ui/Screenshot19.jpeg)
-##### <i>Outlet page contains all the deals related to the products</i>
+##### <i>Women page contaims all the women wear like Caps, Hoodies and Sportswears</i>
