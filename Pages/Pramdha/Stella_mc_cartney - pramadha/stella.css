@@ -317,6 +317,6 @@ body {
 .card .card28:hover img {
     content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0333d0ea05a94d8c8b4daf8000bacf91_9366/Galaxy_6_Shoes_Green_HP2418_02_standard_hover.jpg');
 }
-.card{
-    font-size:16px;
+.card-container{
+    font-size:16px !important;
 }
