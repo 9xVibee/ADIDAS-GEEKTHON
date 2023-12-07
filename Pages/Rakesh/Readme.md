@@ -12,6 +12,7 @@
 
 ##### <i>Women page contaims all the women wear like Caps, Hoodies and Sportswears</i>
 ## Software Used
-#### 
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+
 ## Conclusion
 In the process of recreating the user interface (UI) of the ADIDAS website, we've aimed to capture the visual effects as a reference. Our project encompasses various sections, including products such as shoes, cricket jerseys, bags, backpacks and more for men, women and kids.
