@@ -124,5 +124,5 @@ setInterval(() => {
     opacity: 0,
     duration: 0.3,
   });
-  if (i === 3) i = 0;
+  if (i == 3) i = 0;
 }, 1500);

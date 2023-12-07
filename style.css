@@ -622,6 +622,7 @@ body {
 
 .column p:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .column p {
