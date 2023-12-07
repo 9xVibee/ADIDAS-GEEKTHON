@@ -11,3 +11,11 @@
 !![image](https://github.com/9xVibee/ADIDAS-GEEKTHON/assets/152276284/92e0d571-9665-4bfa-9605-a67c9c61bc62)
 
 ##### <i>Women page contaims all the women wear like Caps, Hoodies and Sportswears</i>
+## Software Used
+#### Javascript, HTML, CSS
+
+##Learnings
+In the process of making the pages the use of the CSS commands as well as the tags which are used in HTML too were learnt. 
+
+## Conclusion
+In the process of recreating the user interface (UI) of the ADIDAS website, we've aimed to capture the visual effects as a reference. Our project encompasses various sections, including products such as shoes, cricket jerseys, bags, backpacks and more for men, women and kids.
