@@ -2,6 +2,7 @@
 
 body {
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
 }
 
 .card .card1:hover img {

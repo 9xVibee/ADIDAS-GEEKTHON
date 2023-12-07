@@ -5,6 +5,10 @@ body {
     font-weight: lighter;
 }
 
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;

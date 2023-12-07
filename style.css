@@ -50,7 +50,7 @@ body {
 }
 
 .hot {
-    margin-left: 10.5% !important;
+    margin-left: 11% !important;
     margin-bottom: -6rem !important;
     margin-top: -1rem !important;
     font-weight: bolder;
@@ -69,6 +69,9 @@ body {
 }
 
 @media screen and (max-width:390px) {
+    .carosul-2 {
+        margin-left: -1rem !important;
+    }
     .hot {
         margin-left: 1rem !important;
     }
@@ -158,7 +161,6 @@ body {
         display: block !important;
     }
 
-
     .search-icon-hide {
         display: block !important;
     }
@@ -192,13 +194,6 @@ body {
     gap: 1rem;
 }
 
-/* 
-.left-hidden-section .hide-heart,
-.search-icon-hide {
-    font-size: 1.2rem;
-    display: none !important;
-} */
-
 .navbar {
     display: flex;
     flex-direction: column;
@@ -210,7 +205,7 @@ body {
     border-bottom: 1px solid #ECEFF1;
     background-color: white;
     height: 7.8rem;
-    z-index: 99999;
+    z-index: 9999999;
 }
 
 .header-black-section {
@@ -768,7 +763,7 @@ body {
     background-color: white;
     top: 0;
     left: 0;
-    z-index: 99999;
+    z-index: 999999999;
     height: auto;
     border: 1px saddlebrown red;
     overflow-y: scroll;
@@ -1973,7 +1968,16 @@ h1 {
 }
 
 /* Sign up end */
-
 #men {
     color: red !important;
+}
+
+.heart {
+    color: black !important;
+}
+
+@media screen and (max-width:960px) {
+    .home {
+        margin-top: 4rem !important;
+    }
 }

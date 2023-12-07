@@ -502,3 +502,25 @@ body {
         margin-left: 0% !important;
     }
 }
+
+.hot {
+    margin-left: 10.5% !important;
+    margin-bottom: -4rem !important;
+}
+
+.carosul-2 {
+    margin-top: 0 !important;
+    margin-left: -2rem !important;
+}
+
+@media screen and (max-width:1490px) {
+    .carosul-2 {
+        margin-top: 0 !important;
+        margin-left: 1rem !important;
+    }
+
+    .hot {
+        margin-left: 11% !important;
+        margin-bottom: 0rem !important;
+    }
+}
