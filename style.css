@@ -620,6 +620,10 @@ body {
     margin-bottom: -0.8rem !important;
 }
 
+.column p:hover {
+    text-decoration: underline;
+}
+
 .column p {
     font-weight: lighter;
     color: #424542;
