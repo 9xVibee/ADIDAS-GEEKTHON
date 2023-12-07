@@ -204,24 +204,27 @@ ul {
 @media (max-width: 768px) {
     .home {
         background-size: 48rem 25rem;
-        margin-top: 5rem;
+        margin-top: 6.5rem!important;
         background-color: rgb(10, 10, 103);
-        height: 27%;
+        height: 25rem !important;
     }
 
     .men-home-p {
         margin-left: 10rem;
-        margin-top: -10rem;
+        /* margin-top:rem !important; */
+        display:none;
     }
 
     .home-buttons-container {
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
+    }
+    .home-img-container{
+        margin-top: -5rem;
     }
 
     .statement {
         justify-content: center;
         text-align: center;
-
         height: 20%;
         width: 100%;
         font-size: 1.5rem;
@@ -242,60 +245,34 @@ ul {
         display: none;
     }
 
-    /* font-weight: 900;
-        justify-content: center;
-        margin: auto;
-        text-align: center;
-        height: 27rem;
-        flex-direction: column;
-        margin-bottom: 4rem;
-    }
-
-    .data-heading{
-        text-align: center;
-    }
-    .left-cloth{
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-    .right-section{
-    
-        justify-content:center;  
-        gap:1rem;
-        padding-right: 6px !important; 
-    } */
-    /* .girls-shoe-section{
-        /* padding-left: 5%; */
-    /* text-align: center;
-        margin-right: 10%;
-        margin-left: 50;
-    }
-    .boys-shoe-section{
-        text-align:center;
-        margin-left: 10%;
-    } */
-    /* #girls {} */
-
     .menu {
         display: none;
     }
 }
 
+
+
 @media (max-width: 480px) {
     .home {
-        background-size: 25rem 35rem;
+        margin-top: 6rem!important;
+        background-size: 26.5rem 15rem;
         background-color: rgb(10, 10, 103);
+        height:15rem !important;
+        
     }
 
     .men-home-p {
         margin-left: 5rem;
         margin-top: 15rem;
+        display: none;
     }
 
     .home-buttons-container {
-        margin-bottom: 9rem;
-        font-size: large;
+        margin-top: 4rem !important;
+        position:relative;
     }
+
+
 
     .statement {
         justify-content: center;
@@ -303,6 +280,7 @@ ul {
         height: 30%;
         width: 100%;
         font-size: 1.5rem;
+        margin-left: 0.3rem;
     }
 
     .statement-summary {
@@ -320,4 +298,16 @@ ul {
     }
 }
 
+@media (min-width: 375px) and (max-width: 400px){
+    .home-buttons-container {
+        margin-top: -2rem !important;
+        position:relative;
+    }
+    /* .home-buttons-container {
+        margin-bottom: 10rem;
+    } */
+}
+@media screen and {
+    
+}
 /* DATA END */

@@ -1,4 +1,7 @@
 # ADIDAS.Co.in :running:
+
+## HOSTED LINK OF OUR PROJECT
+To explore the project, visit the [https://9xvibee.github.io/](#https://9xvibee.github.io/)
 ### <span style="color:#29c4f6"> <u>Table of Contents:</u>
 
 1. [INTRODUCTION](#🏅-introduction)
@@ -86,29 +89,29 @@ To get started with this website clone, follow these steps:
 <li>The application should now be running locally rendering HTML, CSS and JavaScript.
 </ol>
 
-## :roller_coaster:<span style="color:#29c4f6">CHALLENGES 
+## :roller_coaster:<span style="color:#29c4f6">CHALLENGES :runner:
 Throughout the development of our project, our team encountered various challenges and obstacles. Here, we document some of the major issues we faced:
 
-#### <span style="color:#ef00ff">1. COMMUNICATION
+#### <span style="color:#ef00ff">1. COMMUNICATION :smile:
 <ul>Coordinating tasks, updates, and changes among team members requires effective communication to ensure everyone is on the same page. </ul>
 
-#### <span style="color:#ef00ff">2. CONSISTENCY
+#### <span style="color:#ef00ff">2. CONSISTENCY :confused:
 <ul> Maintaining consistency in coding styles, naming conventions, and overall structure is crucial. </ul>
 
-#### <span style="color:#ef00ff">3. VERSION CONTROL
+#### <span style="color:#ef00ff">3. VERSION CONTROL :sunglasses:
 <ul> Handling version control with tools like Git helps prevent conflicts and allows for collaboration, but it requires careful management to avoid code conflicts. </ul>
 
-#### <span style="color:#ef00ff">4. BROWSER COMPATIBILITY
+#### <span style="color:#ef00ff">4. BROWSER COMPATIBILITY :smiley:
 <ul> Ensuring the website functions correctly across different browsers can be challenging due to varying levels of support for HTML, CSS, and JavaScript features.
  </ul>
 
-#### <span style="color:#ef00ff">5. RESPONSIVENESS
+#### <span style="color:#ef00ff">5. RESPONSIVENESS :cyclone:
 <ul>  Creating a responsive design that works well on different devices and screen sizes requires careful planning and testing. </ul>
 
-#### <span style="color:#ef00ff">6. TESTING AND DEBUGGING
+#### <span style="color:#ef00ff">6. TESTING AND DEBUGGING :relieved:
 <ul>Rigorous testing and debugging are necessary to identify and fix issues promptly </ul>
 
-## :airplane:<span style="color:#29c4f6">WEBSITE UI
+## :airplane:<span style="color:#29c4f6">WEBSITE UI 
  #### 1. HOME PAGE UI
  ![Screenshot 1](./screenshots_ui/Screenshot1.png)
 ##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
@@ -184,6 +187,115 @@ Throughout the development of our project, our team encountered various challeng
 #### 19. OUTLIST
 ![Screenshot 19](./screenshots_ui/Screenshot19.jpeg)
 ##### <i>Outlet page contains all the deals related to the products</i>
+#### 20. Kids page
+##### <i>Kids page ui was designed with the products related to kids and users can navigate to different products which are available for kids in the website.</i>
+![Screenshot 20](./screenshots_ui/Screenshot20.png)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages. It is a fixed navbar.
+### 2. Body page
+The body page of this contains the contents related to the products of kids. 
+### 3. Button
+The purpose of the button on the page is to navigate to the pages related to shop for kids. 
+#### 21. Samba page
+![Screenshot 21](screenshots_ui/Screenshot21.png)
+##### <i>Samba page ui contains the content related to the products of that particular Samba brand.</i>
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the images of products of the Samba brand with their prices and description of each image. 
+
+#### 22. Login page
+##### <i>Login page is for user authentication to enter a specific website which trespassers cannot see. </i>
+![Screenshot 22](screenshots_ui/Screenshot22.png)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains fields for the Email and some other browsers link from which you can login with your google accounts.
+
+#### 22. ADIDAS SPEZIAL
+##### <i>Explore a diverse range of footwear, apparel, and accessories that seamlessly blend form and function. Imbued with the spirit of casual sportiness, the Adidas Spezial collection is perfect for those who appreciate the art of simplicity and the power of understated elegance.</i>
+![Screenshot 23](./screenshots_ui/Screenshot23.png)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages. It is a fixed navbar.
+### 2. Body page
+The body page of this contains the contents related to the products of Adidas spezial. 
+#### 24. ADIDAS X BCCI 
+![Screenshot 24](./screenshots_ui/Screenshot24.png)
+##### <i>Adidas X Bcci pages contains the products related to the Cricket like Jerseys and more</i>
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the images of products related to cricket with their prices and description of each image. 
+
+#### 25. BAGS PAGE
+##### <i>Bags page is an enormous collection of beautiful bags of adidas brand  </i>
+![Screenshot 25](./screenshots_ui/Screenshot25.png)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the different collection of bags and their decription with prices. 
+#### 26. NMD S1 MAHBS
+##### <i>This page contains all the products of NMD S1 MAHBS </i>
+![Screenshot 26](./screenshots_ui/Screenshot26.jpeg)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the products of NMD S1 MABS that have offers on each product.
+#### 27. STELLA MC CARTNEY PAGE
+##### <i>Stella mc cartney page contains all the deals related to the products and their description</i>
+![Screenshot 27](./screenshots_ui/Screenshot27.jpeg)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the products  related to Stella mc cartney brands.
+
+#### 28. SUPERNOVA 
+##### <i>Supernova page contains all the deals related to the products of supernova brand</i>
+![Screenshot 28](./screenshots_ui/Screenshot28.jpeg)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the products that are related to Supernova brand product.
+
+#### 29. WOMEN PAGE
+##### <i>Women page contains all the products for women</i>
+![Screenshot 29](./screenshots_ui/Screenshot29.jpeg)
+## Components
+
+### 1. Navigation Bar
+Navigation Bar includes the components related to all the webpages.
+### 2. Body page
+The body page of this contains the products that are related to women.
+
+## LEARNINGS
+### 1. Understanding User Requirements
+- Clearly defined user requirements at the beginning led to a more focused development process.
+### 2. Agile Development
+- Embracing an agile development approach allowed for flexibility in adapting to changing project needs.
+### 3. Collaboration and Communication
+- Effective comminication within the tean and regular collaboration meetings improved overall project coordination.
+### 4. Technology
+- Experimenting with HTML, CSS & Javascript provided valuable insights into its benefits and limitations.
+### 5. Problem Solving
+- Encountering and solving errors enhanced problem-solving skills among team members.
 
 
 
